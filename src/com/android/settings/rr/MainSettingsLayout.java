@@ -243,17 +243,18 @@ public class MainSettingsLayout extends SettingsPreferenceFragment {
         int which = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.RR_CONFIG_STYLE, 0);
         	if (which == 0) {
-            frags[0] = new StatusBarSettings();
-            frags[1] = new NotificationDrawerSettings();
-            frags[2] = new RecentsSettings();
-            frags[3] = new QsPanel();
-        	frags[4] = new LockScreenSettings();
-            frags[5] = new RRGestures();
-            frags[6] = new ButtonSettings();
-            frags[7] = new AnimationSettings();
-            frags[8] = new UISettings();
-            frags[9] = new MiscSettings();
-            frags[10] = new About();
+	        frags[0]  = new Tweaks();
+            frags[1]  = new StatusBarSettings();
+            frags[2]  = new NotificationDrawerSettings();
+            frags[3]  = new RecentsSettings();
+            frags[4]  = new QsPanel();
+            frags[5]  = new LockScreenSettings();
+            frags[6]  = new RRGestures();
+            frags[7]  = new ButtonSettings();
+            frags[8]  = new AnimationSettings();
+            frags[9]  = new UISettings();
+            frags[10] = new MiscSettings();
+            frags[11] = new About();
         	} else {
             frags[0] = new MainSettings();
         	}
@@ -281,6 +282,7 @@ public class MainSettingsLayout extends SettingsPreferenceFragment {
                     Settings.System.RR_CONFIG_STYLE, 0);
         if (which == 0) {
         titleString = new String[]{
+		getString(R.string.rr_tweaks_title),
                 getString(R.string.rr_statusbar_title),
                 getString(R.string.rr_notification_panel_title),
                 getString(R.string.recents_settings_title),
