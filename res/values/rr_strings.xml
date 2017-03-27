@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="rr_mod_version">Dirty Dragons OS version</string>
+    <string name="rr_mod_version">RR-OS version</string>
     <string name="build_date">Build date</string>
     <string name="mod_version_default">Default</string>
 
@@ -35,10 +35,10 @@
     <string name="about_rr_settings">About</string>
     <string name="about_rr">About</string>
     <string name="about_rr_summary">@null</string>
-    <string name="about_r0m_summary">Everything about the Dirty Dragons OS</string>
+    <string name="about_r0m_summary">Everything about the Resurrection Remix OS</string>
     <string name="rr_donate">Donate to development</string>
-    <string name="rr_donate_summary">Show your support to Dirty Dragons OS</string>
-    <string name="app_name">Dirty Dragons OS</string>
+    <string name="rr_donate_summary">Show your support to Resurrection Remix OS</string>
+    <string name="app_name">Resurrection Remix OS</string>
     <string name="devs">Dev Tag</string>
     <string name="github_westcrip">https://github.com/westcripp</string>
     <string name="github_varund7726">https://github.com/varund7726</string>
@@ -46,11 +46,11 @@
     <string name="github_bdogg718k">https://github.com/bdogg718k</string> 
     <string name="rr">Links</string>
     <string name="rr_website_title">Website</string>
-    <string name="rr_website_summary">Get more information about Dirty Dragons OS</string>
+    <string name="rr_website_summary">Get more information about Resurrection Remix OS</string>
     <string name="rr_forum_title">Forum</string>
-    <string name="rr_forum_summary">Be a member of Dirty Dragons forum</string>
+    <string name="rr_forum_summary">Be a member of Resurrection forum</string>
     <string name="rr_source_title">Github</string>
-    <string name="rr_source_summary">Dirty Dragons OS sources</string>
+    <string name="rr_source_summary">Resurrection Remix OS sources</string>
     <string name="rr_facebook_title">Facebook</string>
     <string name="rr_facebook_summary">Facebook community</string>
     <string name="rr_google_plus_title">Google+</string>
@@ -70,7 +70,7 @@
     <string name="brian_summary">● Developer \n● Maintainer</string>
 
     <string name="device_maintainers_title">Devices and maintainers</string>
-    <string name="device_maintainers_title_summary">List of devices and their official DD-OS maintainers</string>
+    <string name="device_maintainers_title_summary">List of devices and their official RR-OS maintainers</string>
     <string name="maintainers_note_title">Note</string>
     <string name="maintainers_note_title_summary">Send a PM to \'Varun Date\' at Hangouts containing the link to your ROM thread if you want your name to be added in Device Maintainers list.</string>
  
@@ -91,9 +91,9 @@
 
     <!-- Share RR ROM -->
     <string name="share_rr">Share</string>
-    <string name="share_rr_summary">Let people know you use Dirty Dragons OS</string>
-    <string name="share_message">Try Dirty Dragons OS! https://plus.google.com/communities/109352646351468373340</string>
-    <string name="share_chooser_title">Share Dirty Dragons OS via...</string>
+    <string name="share_rr_summary">Let people know you use Resurrection Remix OS</string>
+    <string name="share_message">Try Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
+    <string name="share_chooser_title">Share Resurrection Remix OS via...</string>
 
     <!-- RR Changelog-->
     <string name="changelog_title">Changelog</string>
@@ -107,7 +107,7 @@
     <string name="fab_updates">Updates</string>
     <string name="fab_restartui">Restart UI</string>
     <string name="fab_reset">Reset</string>
-    <string name="fab_about">About DD-OS</string>
+    <string name="fab_about">About RR-OS</string>
     <string name="fab_layout">Update layout</string>
     <string name="fab_layout_update">Toggle marshmallow layout</string>
     <string name="fab_layout_toggle">Toggle nougat layout</string>
@@ -119,7 +119,7 @@
     <string name="rr_category_title">Personalization</string>
     <string name="rr_title">Configurations</string>
     <string name="rr_title_summary">Various customizations</string>
-    <string name="rr_config_main_title">DD-OS</string>
+    <string name="rr_config_main_title">RR-OS</string>
     <string name="rr_ota_fab_title">Show floating button</string>
     <string name="rr_ota_fab_summary">Enable/disable to show/hide floating button in configurations. Enter/exit once when switch used</string>
     <string name="rr_statusbar_title">Status bar</string>
@@ -147,11 +147,12 @@
     <string name="icons">Icons</string>
     <string name="general">General</string>
 
+
     <string name="rr_notif_settings_title">Notifications</string>
 
     <!--RR Configurations Summaries-->
     <string name="clock_custom_summary">Customize various elements of the statusbar clock and date</string>
-    <string name="status_bar_logo_summary">Enable or disable DD logo in statusbar. Customize color and position</string>
+    <string name="status_bar_logo_summary">Enable or disable Resurrection logo in statusbar. Customize colour and position</string>
     <string name="sb_custom_logos_summary">Enable or disable icons in statusbar. Customize their elements and position</string>
     <string name="rr_battery_summary">Customize battery elements in statusbar and also customize the batterybar</string>
     <string name="rr_sb_icons_summary">Enable or disable icons of your choice in statusbar</string>
@@ -354,7 +355,7 @@
 
     <!-- Statusbar RR logo -->
     <string name="status_bar_rr_logo_title">Enable logo</string>
-    <string name="status_bar_rr_logo_summary">Enable to show DD-OS logo on the status bar</string>
+    <string name="status_bar_rr_logo_summary">Enable to show RR-OS logo on the status bar</string>
 
     <!-- Color picker -->
     <string name="color_picker_fragment_title">Color picker</string>
@@ -365,7 +366,7 @@
     <string name="palette_rgb_title">RGB</string>
     <string name="reset_color_title">Reset</string>
     <string name="reset_android_title">Android default</string>
-    <string name="reset_title">Dirty Dragons default</string>
+    <string name="reset_title">Resurrection default</string>
     <string name="reset_theme_default_title">Theme default</string>
     <string name="favorites_title">Favorites</string>
     <string name="hide_favorites_title">Hide favorites</string>
@@ -387,7 +388,7 @@
     <string name="color_picker_help_ab_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
     <string name="color_picker_help_ab_menu_title">Menu button:</string>
     <string name="color_picker_help_ab_menu_reset_title">Reset:</string>
-    <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android, Dirty Dragons or theme related color without applying the new color.</string>
+    <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android, Resurrection Remix or theme related color without applying the new color.</string>
     <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
     <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
     <string name="color_picker_help_ab_menu_help_title">Show/hide help:</string>
@@ -398,7 +399,7 @@
     <string name="color_picker_help_color_buttons_title">Color buttons:</string>
     <string name="color_picker_help_favorites_title">Favorites:</string>
     <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
-    <string name="color_picker_help_palette_title">Palette:\n(Dirty Dragons, Material and RGB)</string>
+    <string name="color_picker_help_palette_title">Palette:\n(Resurrection Remix, Material and RGB)</string>
     <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the palette color as new color, without applying the new color.</string>
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
@@ -1347,9 +1348,9 @@
     <string name="button24">Database Minus </string>
     <string name="button25">Sequential Cube</string>
     <string name="button26">Timer</string>
-    <string name="button27">Dirty Dragons</string>
+    <string name="button27">Resurrection</string>
     <string name="button28">Android Stock</string>
-    <string name="button29">Dirty Dragons Lollipop</string>
+    <string name="button29">Resurrection Lollipop</string>
     <string name="button30">Android N</string>
     <string name="animation0">Rotation </string>
     <string name="animation1">Recents Exit</string>
@@ -1464,7 +1465,7 @@
     <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
     <string name="status_bar_weather_color_title">Temperature color</string>
     <string name="status_bar_rr_logo_color">Logo color</string>
-    <string name="status_bar_logo">Dirty Dragons logo</string>
+    <string name="status_bar_logo">Resurrection logo</string>
     <string name="status_bar_logo_title">Brand logo</string>
     <string name="status_bar_rr_logo_position">Logo location</string>
     <string name="status_bar_rr_logo_position_summary">Choose which side to display the logo on, left or right</string>
@@ -1718,8 +1719,8 @@
     <string name="show_custom_logo_summary">Show logos in statusbar from a wide range of icons available in system</string>
     <string name="custom_logo_color">Color</string>
     <string name="custom_logo_position">Position</string>
-    <string name="logo0">Dirty Dragons pure</string>
-    <string name="logo1">Dirty Dragons lollipop</string>
+    <string name="logo0">Resurrection pure</string>
+    <string name="logo1">Resurrection lollipop</string>
     <string name="logo2">Tuner </string>
     <string name="logo3">Bug droid minimal </string>
     <string name="logo4">Drupal</string>
@@ -1756,9 +1757,9 @@
     <string name="logo35">Gender male</string>
     <string name="logo36">Gender female</string>
     <string name="logo37">Pitch black</string>
-    <string name="logo38">Dirty Dragons original</string>
-    <string name="logo39">Dirty Dragons half</string>
-    <string name="logo40">Dirty Dragons no-ring</string>
+    <string name="logo38">Resurrection original</string>
+    <string name="logo39">Resurrection half</string>
+    <string name="logo40">Resurrection no-ring</string>
     <string name="logo41">Spider 1</string>
     <string name="logo42">Spider 2</string>
     <string name="logo43">Orioles</string>
@@ -1798,7 +1799,7 @@
 
 
     <!-- PA Pie control -->
-    <string name="reset_paranoid">Dirty Dragons</string>
+    <string name="reset_paranoid">Resurrection</string>
     <string name="reset_android">Android</string>
     <string name="pa_piecontrol_settings_summary">Customize pie targets, style, size and color</string>
     <string name="pa_pie_control_title">Pie control</string>
@@ -1958,7 +1959,7 @@
 
      <!-- RR summary text -->
     <string name="rr_settings_summary_title">Custom summary text in settings application</string>
-    <string name="custom_summary_title">Custom DD summary</string>
+    <string name="custom_summary_title">Custom RR summary</string>
     <string name="custom_summary_explain">Please enter a new summary. Leave blank to revert to stock text.</string>
 
     <!-- Custom summaries -->
@@ -1972,7 +1973,7 @@
     <string name="sum6">What else?</string>
     <string name="sum7">I am not your F1 button</string>
     <string name="sum8">You won\'t wanna miss this s***!</string>
-    <string name="sum9">Welcome to DD</string>
+    <string name="sum9">Welcome to RR</string>
     <string name="sum10">Don\'t pass me!</string> 
     <string name="sum11">Did you finish your homework? ツ</string>
     <string name="sum12">Hello, i\'m your new assistant</string>
@@ -2129,9 +2130,9 @@
     <string name="blur_cat_notice_summary">Blur personalizations are disabled during Keyguard view! Only Translucent Notifications are enabled!</string>
 
     <string name="rr_build_type_title">Build type</string>
-    <string name="rr_build_type_default">Custom</string>
+    <string name="rr_build_type_default">Unofficial</string>
     <string name="rr_maintainer_title">Maintainer</string>
-    <string name="rr_maintainer_default">KillerDroid96</string>
+    <string name="rr_maintainer_default">Unknown</string>
     
     <!-- brightness slider -->
     <string name="show_brightness">Brightness slider</string>
