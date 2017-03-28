@@ -44,6 +44,8 @@
   <string name="device_A6020_summary">A6020\n维护者 - Henrique Silva (jhenrique09)</string>
   <string name="device_a6000">联想 A6000</string>
   <string name="device_a6000_summary">a6000\n维护者 - Harshit Jain (dev_harsh1998)</string>
+  <string name="device_p2a42">联想 P2</string>
+  <string name="device_p2a42_summary">p2a42\n维护者 - Vedat Ak (Incredible)</string>
   <string name="device_ms013g">Grand 2 SM-G7102</string>
   <string name="device_ms013g_summary">ms013g \n维护者 - </string>
   <string name="device_moto_x">Moto X 2013</string>
@@ -51,7 +53,6 @@
   <string name="device_moto_x14">Moto X 2014</string>
   <string name="device_moto_x14_summary">Victara \n维护者 - Megatron007</string>
   <string name="device_moto_x_clark">Moto X 2015</string>
-  <string name="device_moto_x_clark_summary">Clark \n维护者 - </string>
   <string name="device_lux_x">Moto X Play</string>
   <string name="device_lux_x_summary">Lux \n维护者 - GtrCraft</string>
   <string name="device_peregrine">Moto G LTE</string>
@@ -81,7 +82,6 @@
   <string name="device_klte">Galaxy S5</string>
   <string name="device_klte_summary">All klte variants \n维护者 - ScrawnyB</string>
   <string name="device_n9">Nexus 9</string>
-  <string name="device_n9_summary">Flounder \n维护者 -</string>
   <string name="device_og">LG Optimus G</string>
   <string name="device_og_summary">Int \n维护者 - </string>
   <string name="device_o4x">Optimus 4X HD</string>
