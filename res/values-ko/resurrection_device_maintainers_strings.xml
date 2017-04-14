@@ -39,7 +39,6 @@
   <string name="device_category_leeco_title">LeEco</string>
   <string name="device_category_zuk_title">ZUK</string>
   <string name="device_A6020">Vibe K5</string>
-  <string name="device_A6020_summary">A6020\n관리자 - Henrique Silva (jhenrique09)</string>
   <string name="device_a6000">Lenovo A6000</string>
   <string name="device_a6000_summary">a6000\n관리자 - Harshit Jain (dev_harsh1998)</string>
   <string name="device_ms013g">Grand 2 SM-G7102</string>
@@ -49,7 +48,6 @@
   <string name="device_moto_x14">Moto X 2014</string>
   <string name="device_moto_x14_summary">Victara \n메인테이너 - Megatron007</string>
   <string name="device_moto_x_clark">Moto X 2015</string>
-  <string name="device_moto_x_clark_summary">Clark \n메인테이너 - </string>
   <string name="device_lux_x">Moto X Play</string>
   <string name="device_lux_x_summary">Lux \n메인테이너 - GtrCraft</string>
   <string name="device_peregrine">Moto G LTE</string>
@@ -78,7 +76,6 @@
   <string name="device_klte">Galaxy S5</string>
   <string name="device_klte_summary">모든 klte 기종 \n메인테이너 - ScrawnyB</string>
   <string name="device_n9">Nexus 9</string>
-  <string name="device_n9_summary">Flounder \n메인테이너 -</string>
   <string name="device_og">LG Optimus G</string>
   <string name="device_og_summary">Int \n메인테이너 - </string>
   <string name="device_o4x">Optimus 4X HD</string>
@@ -114,7 +111,6 @@
   <string name="device_m9">HTC One M9</string>
   <string name="device_m9_summary">M9 \n메인테이너 - </string>
   <string name="device_htc_10">HTC 10</string>
-  <string name="device_htc_10_summary">10\n관리자 -</string>
   <string name="device_google_marlin">Google</string>
   <string name="device_i9300">Galaxy S III</string>
   <string name="device_i9300_summary">GT-I9300 \n메인테이너 - Varun Date</string>
@@ -191,11 +187,9 @@
   <string name="device_deb">Nexus 7 LTE 2013</string>
   <string name="device_deb_summary">Deb \n메인테이너 - Aclegg2011</string>
   <string name="device_falcon">Moto G</string>
-  <string name="device_falcon_summary">Falcon \nMaintainer - Henrique Silva (jhenrique09)</string>
   <string name="device_titan">Moto G 2014</string>
   <string name="device_titan_summary">Titan \n메인테이너 - mrunalkaran</string>
   <string name="device_osprey">Moto G 2015</string>
-  <string name="device_osprey_summary">Osprey\nMaintainer - Henrique Silva (jhenrique09)</string>
   <string name="device_athene">Moto G4 Plus</string>
   <string name="device_athene_summary">athene \n메인테이너 - Silesh.Nair</string>
   <string name="device_harpia">Moto G4 Play</string>
@@ -302,7 +296,6 @@
   <string name="device_redmi3">Xiaomi Redmi 3</string>
   <string name="device_redmi3_summary">ido\n메인테이너 - WinKarbik</string>
   <string name="device_wfxs">WilleyFox Swift</string>
-  <string name="device_wfxs_summary">crackling\n메인테이너 - </string>
   <string name="device_wfxk">WilleyFox Storm</string>
   <string name="device_wfxk_summary">kipper\n메인테이너 - </string>
   <string name="device_quark">Moto Maxx-Turbo, Droid Turbo </string>

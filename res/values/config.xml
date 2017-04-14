@@ -39,7 +39,7 @@
 
     <bool name="config_regional_display_icc_id_enable">false</bool>
     <!-- When true enable color temperature setting. -->
-    <bool name="config_enableColorTemperature">true</bool>
+    <bool name="config_enableColorTemperature">false</bool>
 
     <!-- carrier tethering default ssid and password begin -->
     <bool name="use_empty_password_default">false</bool>
@@ -111,4 +111,8 @@
 
     <!-- Enable/disable wifi region code preferences -->
     <bool name="config_hideWifiRegionCode">false</bool>
+
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
 </resources>

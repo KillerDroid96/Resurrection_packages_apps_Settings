@@ -21,6 +21,8 @@
   <!-- General -->
   <string name="ok">OK</string>
   <string name="reset">Сбросить</string>
+  <string name="dlg_reset_rr">RR</string>
+  <string name="dlg_reset_android">По умолчанию</string>
   <string name="default_string">По умолчанию</string>
   <string name="add">Добавить</string>
   <string name="enabled">Включено</string>
@@ -100,8 +102,8 @@
   <string name="fab_reset">Сброс</string>
   <string name="fab_about">О RR-OS</string>
   <string name="fab_layout">Обновить расположение</string>
-  <string name="fab_layout_update">Включить расположение как в Android 6.X</string>
-  <string name="fab_layout_toggle">Включить расположение как в Android 7.X</string>
+  <string name="fab_layout_update">Включить классическое расположение</string>
+  <string name="fab_layout_toggle">Включить расположение по вкладкам</string>
   <string name="rr_reset_message">Сбросить все настройки к значениям по умолчанию?</string>
   <string name="rr_reset_settings">Сбросить настройки</string>
   <string name="rr_reset_yes">Да</string>
@@ -119,7 +121,7 @@
   <string name="rr_tuner">Настройка системного интерфейса</string>
   <string name="rr_tuner_summary">Часть заводских настроек</string>
   <string name="rr_battery">Настройки отображения заряда в строке состояния</string>
-  <string name="rr_sb_icons">Системные иконки</string>
+  <string name="rr_sb_icons">Системные значки</string>
   <string name="rr_sb_battery">Строка состояния</string>
   <string name="notification_drawer_title">Панель уведомлений</string>
   <string name="recents_settings_title">Меню недавних приложений</string>
@@ -128,7 +130,7 @@
   <string name="button_settings">Кнопки</string>
   <string name="rr_misc_title">Разное</string>
   <string name="rr_ui_title">Интерфейс</string>
-  <string name="rr_dash_board_title">Панель инструментов</string>
+  <string name="rr_dash_board_title">Главное меню настроек</string>
   <string name="system_animations">Системные анимации</string>
   <string name="toast">Всплывающее оповещение</string>
   <string name="listview">Анимация списка</string>
@@ -145,7 +147,7 @@
   <string name="ticker_screen_summary">Настроить стиль бегущих уведомлений в строке состояния</string>
   <string name="status_bar_temperature_summary">Включить или выключить отображение температуры в строке состояния и настроить стиль отображения </string>
   <string name="network_traffic_summary">Включить или выключить отображение индикатора сетевого трафика в строке состояния и настроить его стиль, порог неактивности и интервал обновления</string>
-  <string name="carrier_summary">Включить или выключить название оператора в строке состояния и настроить его стиль </string>
+  <string name="carrier_summary">Включить или выключить имя оператора в строке состояния и настроить его стиль </string>
   <string name="rr_sb_gestures_summary">Включить или выключить жесты, используемые в строке состояния</string>
   <string name="breathing_notifications_summary">Придаёт эффект \"дыхания\" уведомлениям о смс-сообщениях, пропущенных звонках и голосовой почте</string>
   <string name="rr_trans_summary">Настроить различные элементы в панели уведомлений, такие как прозрачность и ход</string>
@@ -175,7 +177,7 @@
   <string name="rr_expanded_desktop_summary">Опции расширенного стола для отдельно взятого приложения</string>
   <string name="rr_doze_summary">Включить или выключить Ambient Display и настроить его компоненты</string>
   <string name="rr_heads_up_summary">Выберите для включения или отключения всплывающих уведомлений и также настройте их таймаут </string>
-  <string name="rr_dash_board_summary">Настроить расположение панели инструментов и сводок</string>
+  <string name="rr_dash_board_summary">Настроить меню настроек и сводки</string>
   <string name="misc_weather_settings_summary">Настроить различные опции для приложения cClock</string>
   <string name="system_app_remover_summary">Удаление ненужных системных приложений</string>
   <string name="rr_updater_summary">Проверить OTA обновления и другие ссылки</string>
@@ -628,6 +630,7 @@
   <string name="shortcuts_icon_presets">Системные значки</string>
   <string name="shortcuts_icon_custom">Галерея</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Выбрать значок</string>
+  <string name="image_exceeds_max_allowed_size">Разрешение изображения не должно превышать 512x512</string>
   <string name="lockscreen_shortcuts_category">Ярлыки</string>
   <string name="keyguard_torch_title">Фонарик на экране блокировки</string>
   <string name="keyguard_torch_summary">Удерживайте кнопку питания, когда устройство заблокировано, чтобы включить фонарик</string>
@@ -972,6 +975,8 @@
   <string name="volume_keys_control_ring_stream_summary_off">Клавиши громкости регулируют уровень громкости мультимедиа</string>
   <string name="volume_answer_call_title">Ответ на звонок</string>
   <string name="volume_answer_call_summary">Отвечать на входящие вызовы нажатием кнопок громкости</string>
+  <string name="vol_up_disable_overlays_title">Отключить наслоения темы кнопкой громкости вверх</string>
+  <string name="vol_up_disable_overlays_summary">Удерживайте громкость вверх при загрузке для отключения всех применённых наслоений темы</string>
   <string name="camera_double_tap_power_gesture_title">Нажмите кнопку питания дважды для запуска камеры</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Быстро открывать камеру без разблокировки экрана</string>
@@ -1011,7 +1016,7 @@
   <string name="status_bar_am_pm_small">Маленький</string>
   <string name="status_bar_am_pm_hidden">Не показывать</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+  <string name="status_bar_battery_style_title">Стиль значка батареи в строке состояния</string>
   <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
   <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
   <string name="status_bar_battery_style_circle">Круглый значок</string>
@@ -1360,6 +1365,17 @@
   <string name="status_bar_logo_position_right">Справа</string>
   <string name="status_bar_logo_position_left">Слева</string>
   <string name="status_bar_logo_position_center">По центру</string>
+  <string name="statusbar_weather_title">Погода в строке состояния</string>
+  <string name="statusbar_weather_summary">Настройте через быстрые настройки/Погода.</string>
+  <string name="statusbar_weather_dialog_title">Стиль погоды в строке состояния</string>
+  <string name="status_bar_weather_hidden">Скрыть погоду</string>
+  <string name="status_bar_temperature_image_show_scale">Показывать температуру с единицами измерения и изображением</string>
+  <string name="status_bar_temperature_image_hide_scale">Показывать температуру с изображением без единиц измерения</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Показывать температуру с единицами измерения</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Показывать температуру без единиц измерения</string>
+  <string name="status_bar_show_image">Показывать изображение</string>
+  <string name="status_bar_weather_image_color_title">Цвет изображения</string>
+  <string name="sb_weather_ic_title">Набор значков</string>
   <string name="rr_config_style_title">Стиль расширенных настроек</string>
   <string name="rr_config_n">Nougat</string>
   <string name="rr_config_mm">Классический</string>
@@ -1422,6 +1438,7 @@
   <string name="smartbar_interface">SmartBar</string>
   <string name="navbar_tint_switch">Оттенок кнопок в панели навигации</string>
   <string name="navbar_button_color">Кнопки панели навигации</string>
+  <string name="navbar_button_custom_icon_switch_title">Добавить цветовой фильтр к кнопкам приложений</string>
   <string name="icon_pack_picker_dialog_title">Наборы значков</string>
   <string name="invalid_icon_from_uri">Не удается загрузить изображения от контент-провайдера</string>
   <string name="picker_activities">Активити</string>
@@ -1508,7 +1525,9 @@
   <string name="lavamp_solid_speed_title">Скорость Lava Lamp</string>
   <string name="pulse_solid_units_count">Количество сплошных линий</string>
   <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+  <string name="pulse_fading_blocks_opacity">Прозрачность затухающих блоков</string>
   <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
+  <string name="pulse_custom_buttons_opacity_title">Прозрачность кнопок в режиме Pulse</string>
   <string name="fling_lavalamp_color_from">Цвет запуска Lava Lamp</string>
   <string name="fling_lavalamp_color_to">Цвет завершения Lava Lamp</string>
   <!-- Pulse config -->
@@ -1540,11 +1559,12 @@
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (только кнопка Домой) и пульсация</string>
   <string name="smartbar_factory_reset_title">Сбросить к настройкам по умолчанию</string>
   <string name="smartbar_factory_reset_confirm">Вы уверены что вы хотите сбросить настройки SmartBar к настройкам по умолчанию?</string>
-  <string name="smartbar_ime_action_title">Действия при вводе</string>
-  <string name="smartbar_ime_action_summary">Выберите, какие кнопки отображать, когда отображается наэкранная клавиатура</string>
+  <string name="smartbar_ime_action_title">Метод ввода и медиа действия</string>
+  <string name="smartbar_ime_action_summary">Выберите, какие кнопки отображать, когда отображается наэкранная клавиатура или играет музыка</string>
   <string name="smartbar_ime_action_none">Нет</string>
   <string name="smartbar_ime_action_arrows">Стрелки ввода</string>
   <string name="smartbar_ime_action_switcher">Переключатель клавиатуры</string>
+  <string name="smartbar_ime_action_dynamic">Стрелки ввода/медиа</string>
   <string name="smartbar_backup_current_config_title">Сохранить профиль</string>
   <string name="smartbar_restore_config_title">Восстановить профиль</string>
   <string name="smartbar_config_name_edit_dialog_title">Имя профиля SmartBar</string>
@@ -1864,7 +1884,7 @@
   <string name="lock_screen_weather_city_color">Город </string>
   <string name="lock_screen_weather_wind_color">Ветер</string>
   <string name="yes">Да</string>
-  <string name="status_bar_battery_style_tile_title">Пользовательский стиль плитки батареи</string>
+  <string name="battery_tile_style_title">Стиль плитки батареи</string>
   <string name="status_bar_battery_style_tile_summary">Разрешить устанавливать тот же стиль значка батареи, что и в строке состояния</string>
   <!-- Scrolling Animation Controls -->
   <string name="scrolling_title">Модификаторы прокрутки</string>
@@ -2009,6 +2029,28 @@
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">Двойное нажатие для отключения экрана</string>
   <string name="smartbar_doubletap_sleep_summary">Двойное нажатие на пустое место на панели навигации для отключения экрана</string>
+  <!-- Pixel Animation Duration -->
+  <string name="pixel_anim_title">Pixel анимация панели навигации</string>
+  <string name="pixel_anim_summary">Настройка различных элементов анимации Pixel на панели навигации</string>
+  <string name="pixel_anim_warning">Настройте различные продолжительности Pixel анимации на панели навигации. ПРЕДУПРЕЖДЕНИЕ! Изменение значений по умолчанию может вызвать потерю производительности в анимации. Продолжайте на свой страх и риск</string>
+  <string name="pixel_anim_x_title">Горизонтальная продолжительность</string>
+  <string name="pixel_anim_y_title">Вертикальная продолжительность</string>
+  <string name="collapse_anim_duration_ry_title">Продолжительность сворачивания</string>
+  <string name="collapse_anim_duration_bg_title">Сворачивание фона</string>
+  <string name="retract_anim_duration_title">Продолжительность отмены</string>
+  <string name="diamond_anim_duration_title">Продолжительность анимации ромба</string>
+  <string name="dots_anim_duration_title">Продолжительность для точек</string>
+  <string name="home_resize_anim_duration_title">Продолжительность изменения размера кнопки</string>
+  <string name="pixel_anim_color_title">Цвета точек</string>
+  <string name="dot_top_color_title">Верхняя точка</string>
+  <string name="dot_bottom_color_title">Нижняя точка</string>
+  <string name="dot_left_color_title">Левая точка</string>
+  <string name="dot_right_color_title">Правая точка</string>
+  <string name="dot_obey_themes">По умолчанию (цвет темы)</string>
+  <string name="dot_custom_color">Пользовательский</string>
+  <string name="dot_random_color">Случайный</string>
+  <string name="dot_random_color_more">Очень случайный</string>
+  <string name="dot_color_switch_title">Стиль</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">Режим \"Управление одной рукой\"</string>
   <string name="one_handed_mode_summary">Позволяет свайпом по панели навигации включать режим \"Управление одной рукой\"</string>
@@ -2026,8 +2068,8 @@
   <string name="remove_tile_summaries_summary_enabled">Сводки в меню настроек включены</string>
   <string name="remove_tile_summaries_summary_disabled">Сводки в меню настроек выключены</string>
   <string name="dashboard_conditions_title">Уведомления</string>
-  <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
-  <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+  <string name="summary_dashboard_conditions_enabled">Уведомления в меню настроек включены</string>
+  <string name="summary_dashboard_conditions_disabled">Уведомления в меню настроек выключены</string>
   <string name="dashboard_columns_portrait_title">Колонки (портрет)</string>
   <string name="dashboard_columns_landscape_title">Строки (ландшафт)</string>
   <!-- Dashboard columns -->
@@ -2063,6 +2105,13 @@
   <string name="recent_panel_bg_color_title">Цвет фона панели</string>
   <string name="recent_card_bg_color_title">Цвет фона карточки</string>
   <string name="recent_card_text_color_title">Цвет текста карточки</string>
+  <string name="slim_recents_mem_display_long_click_clear_title">Длительное нажатие на панель памяти</string>
+  <string name="slim_recents_mem_display_long_click_clear_summary">Очищать недавние приложения при длительном нажатии на панель памяти</string>
+  <string name="slim_icon_pack_title">Набор значков</string>
+  <string name="slim_icon_pack_summary">Применить пользовательский набор значков для приложений в панели</string>
+  <string name="no_iconpacks_summary">Ни одного набора значков не установлено</string>
+  <string name="dialog_pick_iconpack_title">Выберите набор значков</string>
+  <string name="default_iconpack_title">Значки по умолчанию</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Показывать с левого края</string>
   <string name="recent_panel_lefty_mode_summary">Показывать панель приложений с левого края</string>
@@ -2096,6 +2145,8 @@
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Скрыть строку состояния</string>
   <string name="lockscreen_hide_status_bar_summary">Переключить видимость строки состояния на экране блокировки</string>
+  <string name="confirm_shutdown_switch_title">Подтверждение выключения устройства</string>
+  <string name="confirm_shutdown_switch_desc">Добавляет диалоговое окно с подтверждением, когда была нажата кнопка выключения в меню питания</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
   <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
@@ -2107,4 +2158,46 @@
   <string name="force_authorize_substratum_packages_summary">Принудительно запрашивать разрешения для каждой темы</string>
   <string name="magisk_title">Менеджер Magisk</string>
   <string name="magisk_summary">Управление правами суперпользователя</string>
+  <string name="notif_text_color">Цвет текста</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_title">Вид без уведомлений</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_summary">Настройте вид без уведомлений</string>
+  <!-- Statusbar expanded empty shade view settings -->
+  <string name="empty_shade_view_show_carrier_name_title">Показывать имя оператора</string>
+  <string name="empty_shade_view_show_carrier_name_summary">Включите для отображения имени оператора</string>
+  <string name="empty_shade_view_show_wifi_name_title">Показывать имя Wi-Fi сети</string>
+  <string name="empty_shade_view_show_wifi_name_summary">Включите для отображения имени Wi-Fi сети</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Показывать индикатор роуминга</string>
+  <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга в значке сети при нахождении в роуминге</string>
+  <!-- Roaming indicator icon -->
+  <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Действия в режиме ожидания</string>
+  <string name="screen_state_toggles_enable_title">Включить</string>
+  <string name="screen_state_toggles_enable_summary">Действия будут выполняться при выключении экрана. При включении экрана будет восстановлено предыдущее состояние.</string>
+  <string name="screen_state_toggles_mobile_title">Мобильные сети</string>
+  <string name="screen_state_toggles_location_title">Местоположение</string>
+  <string name="screen_state_toggles_twog">Переключиться в 2G</string>
+  <string name="screen_state_toggles_twog_summary">Режим сети будет переключен в 2G при выключенном экране</string>
+  <string name="screen_state_toggles_gps">Отключить GPS</string>
+  <string name="screen_state_toggles_gps_summary">Определение местоположения по GPS будет выключено при выключении экрана</string>
+  <string name="screen_state_toggles_mobile_data">Отключить мобильную передачу данных</string>
+  <string name="screen_state_toggles_mobile_data_summary">Мобильная передача данных будет отключена при выключении экрана</string>
+  <string name="screen_state_off_delay_title">Задержка выполнения действий при выключении экрана</string>
+  <string name="screen_state_off_delay_summary">Время в секундах перед выполнением действий после выключения экрана</string>
+  <string name="screen_state_on_delay_title">Задержка выполнения действий при включении экрана</string>
+  <string name="screen_state_on_delay_summary">Время в секундах перед выполнением действий после включения экрана</string>
+  <!-- In-call DND -->
+  <string name="dnd_when_call_title">Режим \"Не беспокоить\" во время голосового вызова</string>
+  <string name="dnd_when_call_summary">Автоматическое включение режима \"Не беспокоить\" во время голосовых вызовов</string>
+  <string name="no_sim_cluster_switch_title">Скрыть надпись \"Нет сети\"</string>
+  <string name="no_sim_cluster_switch_summary">Скрыть панель сети, если подпись SIM-карты неактивна или отключена. Если SIM-карта не отключена, данный переключатель не будет работать</string>
+  <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Яркость</string>
+  <string name="night_brightness_value_title">Яркость в ночном режиме</string>
+  <string name="night_brightness_text">Когда ночной режим включен, автоматически устанавливается желаемая яркость.</string>
+  <string name="night_bright_disabled">Выключено</string>
+  <string name="night_bright_min">Минимальная яркость</string>
+  <string name="night_bright_low">Низкая яркость</string>
+  <string name="night_bright_medium">Средняя яркость</string>
 </resources>

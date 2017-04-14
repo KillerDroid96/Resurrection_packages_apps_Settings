@@ -21,6 +21,8 @@
   <!-- General -->
   <string name="ok">Ok</string>
   <string name="reset">Zurücksetzen</string>
+  <string name="dlg_reset_rr">RR</string>
+  <string name="dlg_reset_android">Standard</string>
   <string name="default_string">Standard</string>
   <string name="add">Hinzufügen</string>
   <string name="enabled">Aktiviert</string>
@@ -100,8 +102,8 @@
   <string name="fab_reset">Zurücksetzen</string>
   <string name="fab_about">Über RR-OS</string>
   <string name="fab_layout">Layout updaten</string>
-  <string name="fab_layout_update">Auf Marshmallow Layout umschalten</string>
-  <string name="fab_layout_toggle">Auf Nougat Layout umschalten</string>
+  <string name="fab_layout_update">Zum klassischen Layout umschalten</string>
+  <string name="fab_layout_toggle">Layout des Schalters</string>
   <string name="rr_reset_message">Alle Konfigurationen zurücksetzen?</string>
   <string name="rr_reset_settings">Einstellungen zurücksetzen</string>
   <string name="rr_reset_yes">Ja</string>
@@ -628,6 +630,7 @@
   <string name="shortcuts_icon_presets">Systemsymbole</string>
   <string name="shortcuts_icon_custom">Gallerie</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Symbol auswählen</string>
+  <string name="image_exceeds_max_allowed_size">Bild darf nicht 512×512 überschreiten</string>
   <string name="lockscreen_shortcuts_category">Verknüpfungen</string>
   <string name="keyguard_torch_title">Lockscreen-Taschenlampe</string>
   <string name="keyguard_torch_summary">Durch Gedrückthalten der Power-Taste wird die LED-Lampe ein- bzw. ausgeschaltet.</string>
@@ -972,6 +975,8 @@
   <string name="volume_keys_control_ring_stream_summary_off">Lautstärketasten steuern Medienlautstärke</string>
   <string name="volume_answer_call_title">Anruf annehmen</string>
   <string name="volume_answer_call_summary">Anruf durch drücken der Lautstärketasten annehmen</string>
+  <string name="vol_up_disable_overlays_title">Theme Overlays mit oberer Lautstärketaste deaktivieren</string>
+  <string name="vol_up_disable_overlays_summary">Halte die obere Lautstärketaste gedrückt, um beim Hochfahren alle angewendeten Theme Overlays zu deaktivieren</string>
   <string name="camera_double_tap_power_gesture_title">Für Kamera Ein/Aus zweimal drücken</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Kamera ohne Entsperren des Displays schnell öffnen</string>
@@ -1011,7 +1016,7 @@
   <string name="status_bar_am_pm_small">Klein</string>
   <string name="status_bar_am_pm_hidden">Versteckt</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Stil des Akkusymbols</string>
+  <string name="status_bar_battery_style_title">Statusbar Batterie Stil</string>
   <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
   <string name="status_bar_battery_style_icon_landscape">Symbol (Querformat)</string>
   <string name="status_bar_battery_style_circle">Kreis</string>
@@ -1360,6 +1365,17 @@
   <string name="status_bar_logo_position_right">Rechts</string>
   <string name="status_bar_logo_position_left">Links</string>
   <string name="status_bar_logo_position_center">Zentrieren</string>
+  <string name="statusbar_weather_title">Statusleiste Wetter</string>
+  <string name="statusbar_weather_summary">Einstellmöglichkeit von Schnelleinstellungen/Wetter.</string>
+  <string name="statusbar_weather_dialog_title">Statusleiste Wetterstil</string>
+  <string name="status_bar_weather_hidden">Wetter ausblenden</string>
+  <string name="status_bar_temperature_image_show_scale">Zeige Temperatur mit Bild und Maßeinheit</string>
+  <string name="status_bar_temperature_image_hide_scale">Zeige Temperatur mit Bild, ohne Maßeinheit</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Zeige Temperatur mit Maßeinheit</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Zeige Temperatur ohne Maßeinheit</string>
+  <string name="status_bar_show_image">Bild anzeigen</string>
+  <string name="status_bar_weather_image_color_title">Bildfarbe</string>
+  <string name="sb_weather_ic_title">Symbolpaket</string>
   <string name="rr_config_style_title">Konfigurations Stil</string>
   <string name="rr_config_n">Nougat</string>
   <string name="rr_config_mm">Klassisch</string>
@@ -1376,6 +1392,7 @@
   <string name="qs_battery_easy_toggle_summary">Ein Tippen aktiviert/deaktiviert den Energiesparmodus, anstatt die Einstellungen zu öffnen</string>
   <!-- Location easy toggle -->
   <string name="qs_location_easy_toggle_title">Location easy toggle</string>
+  <string name="qs_location_easy_toggle_summary">Einmal tippen schaltet den GPS an, anstatt die Einstellungen zu öffnen</string>
   <string name="qs_music_tile_track_optional_title">Musik-Kachel</string>
   <string name="qs_music_tile_track_optional_summary">Zeige den Musiktitel als QS-Kachel</string>
   <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
@@ -1421,6 +1438,7 @@
   <string name="smartbar_interface">SmartBar</string>
   <string name="navbar_tint_switch">Buttons der Navigationsleiste färben</string>
   <string name="navbar_button_color">Tasten der Navigationsleiste</string>
+  <string name="navbar_button_custom_icon_switch_title">Farbfilter für Anwendungstasten hinzufügen</string>
   <string name="icon_pack_picker_dialog_title">Symbolpakete</string>
   <string name="invalid_icon_from_uri">Nicht möglich, Bild vom Anbieter zu laden</string>
   <string name="picker_activities">Aktivitäten</string>
@@ -1507,7 +1525,9 @@
   <string name="lavamp_solid_speed_title">Geschwindigkeit des Farbwechsels</string>
   <string name="pulse_solid_units_count">Durchgezogene Linien zählen</string>
   <string name="pulse_solid_units_opacity">Durchgezogene Linien Deckkraft</string>
+  <string name="pulse_fading_blocks_opacity">Deckkraft der abfärbenden Blöcke</string>
   <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Linien</string>
+  <string name="pulse_custom_buttons_opacity_title">Tasten Deckkraft bei Pulse</string>
   <string name="fling_lavalamp_color_from">Lavalampe Startfarbe</string>
   <string name="fling_lavalamp_color_to">Lavalampe Endfarbe</string>
   <!-- Pulse config -->
@@ -1539,11 +1559,12 @@
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home Taste nur) und Welligkeit</string>
   <string name="smartbar_factory_reset_title">Auf Standard zurücksetzen</string>
   <string name="smartbar_factory_reset_confirm">Sind Sie sicher, dass Sie die SmartBar auf die Standardeinstellungen zurücksetzen möchten?</string>
-  <string name="smartbar_ime_action_title">Aktionen für Eingabemethoden</string>
-  <string name="smartbar_ime_action_summary">Einstellen, welche Tasten angezeigt werden sollen, wenn eine Bildschirmtastatur angezeigt wird</string>
+  <string name="smartbar_ime_action_title">Eingabe-Methode und Medien-Aktionen</string>
+  <string name="smartbar_ime_action_summary">Einstellen, welche Tasten angezeigt werden sollen, wenn eine Bildschirmtastatur angezeigt wird oder die Musik abgespielt wird</string>
   <string name="smartbar_ime_action_none">Kein</string>
   <string name="smartbar_ime_action_arrows">Eingabepfeile</string>
   <string name="smartbar_ime_action_switcher">Tastatur-Auswahl</string>
+  <string name="smartbar_ime_action_dynamic">Eingang/Medien Pfeile</string>
   <string name="smartbar_backup_current_config_title">Profil speichern</string>
   <string name="smartbar_restore_config_title">Profil wiederherstellen</string>
   <string name="smartbar_config_name_edit_dialog_title">SmartBar-Profilname</string>
@@ -1791,6 +1812,7 @@
   <string name="custom_summary_randomize_title">Randomisierte Zusammenfassung</string>
   <string name="custom_summary_randomize_explain">Vorgeschriebene Zusammenfassungen werden zufällig ausgewählt und ändern sich nach jedem Start der Einstellungen Anwendungen.\nDas Überschreibt jede festgelegte Zusammenfassung.</string>
   <string name="sum1">Haben Sie schon alle Tweaks ausgecheckt?</string>
+  <string name="sum2">Wichtige Nachrichte: Donald Trump verändert sein Haarstil!</string>
   <string name="sum3">Sie haben 100.000 mal getippt.</string>
   <string name="sum4">Viele Optionen!</string>
   <string name="sum5">Tippen Sie jetzt auf mich!</string>
@@ -1806,7 +1828,11 @@
   <string name="sum15">Nur für pro-Benutzer.</string>
   <string name="sum16">Sind Sie gelangweilt? OK tippen Sie mich jetzt!</string>
   <string name="sum17">Gut gemacht! Sie haben ein Bonus-Feature verdient.</string>
+  <string name="sum18">Nicht in der G+ Community spamen</string>
+  <string name="sum19">Folge den G+ post Regeln</string>
   <string name="sum20">Kein Zugang für Noobs</string>
+  <string name="sum21">#gotresurrected</string>
+  <string name="sum22">Wichtige Meldung: Apple will den Blitz beim nächsten Iphone entfernen.</string>
   <string name="sum23">Bist du jetzt zufrieden?</string>
   <string name="sum24">Es reicht, hör auf mich anzutippen!</string>
   <string name="sum25">#Swagger</string>
@@ -1857,7 +1883,7 @@
   <string name="lock_screen_weather_city_color">Stadt </string>
   <string name="lock_screen_weather_wind_color">Wind</string>
   <string name="yes">Ja</string>
-  <string name="status_bar_battery_style_tile_title">Benutzerdefinierter Style der Akku-Kachel</string>
+  <string name="battery_tile_style_title">Akku Kachel Stil</string>
   <string name="status_bar_battery_style_tile_summary">Erlaube das setzen des gleichen Symbols für die Akku Statusbar</string>
   <!-- Scrolling Animation Controls -->
   <string name="scrolling_title">Scroll Einstellungen</string>
@@ -2003,6 +2029,28 @@
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">Standby durch doppeltes Tippen</string>
   <string name="smartbar_doubletap_sleep_summary">Bildschirm durch doppeltes Tippen auf leere Bereiche innerhalb der Navigationsleiste ausschalten</string>
+  <!-- Pixel Animation Duration -->
+  <string name="pixel_anim_title">Pixel Navigationsleisten Animation</string>
+  <string name="pixel_anim_summary">Verschiedene Elemente der Pixel Animation auf der Navigationsleiste anpasssn</string>
+  <string name="pixel_anim_warning">Verschiedene Elemente der Pixel Animation auf der Navigationsleiste anpassen. WARNUNG! Änderung der Standardwerte kann zu Leistungsabfall in der Animation führen. Auf eigene Gefahr vorgehen</string>
+  <string name="pixel_anim_x_title">Horizontale Dauer</string>
+  <string name="pixel_anim_y_title">Vertikale Dauer</string>
+  <string name="collapse_anim_duration_ry_title">Einsturz Dauer</string>
+  <string name="collapse_anim_duration_bg_title">Einsturz Hintergrund</string>
+  <string name="retract_anim_duration_title">Dauer zurückziehen</string>
+  <string name="diamond_anim_duration_title">Diamant Dauer</string>
+  <string name="dots_anim_duration_title">Punkte Dauer</string>
+  <string name="home_resize_anim_duration_title">Dauer der Größenänderung der Taste</string>
+  <string name="pixel_anim_color_title">Punkte Farben</string>
+  <string name="dot_top_color_title">Obere Punkt</string>
+  <string name="dot_bottom_color_title">Untere Punkt</string>
+  <string name="dot_left_color_title">Linker Punkt</string>
+  <string name="dot_right_color_title">Rechter Punkt</string>
+  <string name="dot_obey_themes">Standard (Theme Farbe)</string>
+  <string name="dot_custom_color">Benutzerdefiniert</string>
+  <string name="dot_random_color">Zufall</string>
+  <string name="dot_random_color_more">Sehr zufällig</string>
+  <string name="dot_color_switch_title">Stil</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">Einhandmodus</string>
   <string name="one_handed_mode_summary">Durch streichen auf der Navigationsleiste den Einhand-Modus aktivieren</string>
@@ -2057,6 +2105,13 @@
   <string name="recent_panel_bg_color_title">Hintergrund der Schaltfläche</string>
   <string name="recent_card_bg_color_title">Hintergrundfarbe der Karte</string>
   <string name="recent_card_text_color_title">Textfarbe der Karte</string>
+  <string name="slim_recents_mem_display_long_click_clear_title">Arbeitsspeicher bar lange gedrückt halten</string>
+  <string name="slim_recents_mem_display_long_click_clear_summary">Anwendungsverlauf, durch langes drücken der Arbeitsspeicher Bar, leeren.</string>
+  <string name="slim_icon_pack_title">Symbolpacket</string>
+  <string name="slim_icon_pack_summary">Wenden Sie eine benutzerdefiniertes Symbol Packet für Anwendungen im Panel</string>
+  <string name="no_iconpacks_summary">Keine Symbolpakete installiert</string>
+  <string name="dialog_pick_iconpack_title">Symbolpaket auswählen</string>
+  <string name="default_iconpack_title">Standardsymbole</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Am linken Bildschirmrand anzeigen</string>
   <string name="recent_panel_lefty_mode_summary">Zeige das \"Letzte Apps\" Panel an der linken Kante</string>
@@ -2090,6 +2145,8 @@
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Statusleiste ausblenden</string>
   <string name="lockscreen_hide_status_bar_summary">Schalte Statusbar Sicht im Sperrbildschirm</string>
+  <string name="confirm_shutdown_switch_title">Schließe den Bestätigungsdialog</string>
+  <string name="confirm_shutdown_switch_desc">Wenn die Schließ-Taste im Powermenü gedrückt wird, füge ein Dialog zur Bestätigung des Schließens hinzu.</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">App beenden Taste</string>
   <string name="notification_guts_kill_app_button_summary">Zeige eine \"App beenden\" Taste im Menü des gedrückt halten der Benachrichtigung</string>
@@ -2097,4 +2154,51 @@
   <string name="weather_config_title">Service-Einstellungen</string>
   <string name="weather_icon_pack_title">Bedingung Symbole Packet</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Erlaube Theme Apps von unbekannten Quellen</string>
+  <string name="force_authorize_substratum_packages_summary">Zwinge eine Authorisierung aller Theme Apps</string>
+  <string name="magisk_title">Magisk Manager</string>
+  <string name="magisk_summary">Root-Verwaltung</string>
+  <string name="notif_text_color">Textfarbe</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_title">Keine Benachrichtigungen-Ansicht</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_summary">Keine Benachrichtigungen-Ansicht anpassen</string>
+  <!-- Statusbar expanded empty shade view settings -->
+  <string name="empty_shade_view_show_carrier_name_title">Netzanbieter anzeigen</string>
+  <string name="empty_shade_view_show_carrier_name_summary">Aktivieren um den Netzanbietertext anzuzeigen</string>
+  <string name="empty_shade_view_show_wifi_name_title">WLAN Netzwerknamen anzeigen</string>
+  <string name="empty_shade_view_show_wifi_name_summary">Aktivieren um den WLAN Netzwerknamen anzuzeigen</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Roaming-Indikator anzeigen</string>
+  <string name="roaming_indicator_icon_summary">Zeigt den Roaming Indikator im Netz Symbol wenn man im Roaming modus ist</string>
+  <!-- Roaming indicator icon -->
+  <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Aktionen bei ausgeschaltetem Bildschirm</string>
+  <string name="screen_state_toggles_enable_title">Aktivieren</string>
+  <string name="screen_state_toggles_enable_summary">Aktionen werden bei ausgeschaltetem Bildschirm aktiviert. Bei eingeschaltetem Bildschirm werden vorherige Einstellungen wiederhergestellt.</string>
+  <string name="screen_state_toggles_mobile_title">Mobile Netzwerke</string>
+  <string name="screen_state_toggles_location_title">Standort</string>
+  <string name="screen_state_toggles_twog">Zu 2G wechseln</string>
+  <string name="screen_state_toggles_twog_summary">Netzwerk wird bei ausgeschaltetem Bildschirm zu 2G geändert</string>
+  <string name="screen_state_toggles_gps">GPS deaktivieren</string>
+  <string name="screen_state_toggles_gps_summary">GPS basierter Standort wird bei ausgeschaltetem Bildschirm deaktiviert</string>
+  <string name="screen_state_toggles_mobile_data">Mobile Daten deaktivieren</string>
+  <string name="screen_state_toggles_mobile_data_summary">Mobile Datenverbindung wird bei ausgeschaltetem Bildschirm deaktiviert</string>
+  <string name="screen_state_off_delay_title">Aktions Verzögerung bei ausgeschaltetem Bildschirm</string>
+  <string name="screen_state_off_delay_summary">Zahl der Sekunden um zu warten, bis die Aktionen bei ausgeschaltetem Bildschirm beginnen</string>
+  <string name="screen_state_on_delay_title">Aktions Verzögerung bei eingeschaltetem Bildschirm</string>
+  <string name="screen_state_on_delay_summary">Zahl der Sekunden um zu warten, bis die Aktionen bei eingeschaltetem Bildschirm beginnen</string>
+  <!-- In-call DND -->
+  <string name="dnd_when_call_title">\"Nicht stören\" während des Anrufs</string>
+  <string name="dnd_when_call_summary">Aktiviert \"Nicht stören\" automatisch bei Anrufen</string>
+  <string name="no_sim_cluster_switch_title">Kein Sim Netz verstecken</string>
+  <string name="no_sim_cluster_switch_summary">Versteckt die Netzwerk-Leiste, wenn das Abonnement der Sim inaktiv und deaktiviert ist. Wenn die SIM-Karte nicht deaktiviert ist, wird dieser Schalter nicht funktionieren.</string>
+  <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Helligkeit</string>
+  <string name="night_brightness_value_title">Nachtlicht Helligkeit</string>
+  <string name="night_brightness_text">Bei aktiviertem Nachtlicht, wird automatisch die gewünschte Helligkeit eingestellt.</string>
+  <string name="night_bright_disabled">Deaktiviert</string>
+  <string name="night_bright_min">Minimale Helligkeit</string>
+  <string name="night_bright_low">Niedrige Helligkeit
+</string>
+  <string name="night_bright_medium">Mittlere Helligkeit</string>
 </resources>

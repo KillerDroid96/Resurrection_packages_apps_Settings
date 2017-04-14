@@ -242,7 +242,20 @@
         android:title="@string/device_harpia" /> 
                        
   </PreferenceCategory> 
-        
+	
+	<PreferenceCategory
+        android:id="@+id/device_category_zte"
+        android:title="@string/device_category_zte_title" >
+		
+     <Preference
+        android:id="@+id/device_axon7"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_axon7_summary"
+        android:selectable="false" 
+        android:title="@string/device_axon7" />
+
+  </PreferenceCategory>         
+
     <PreferenceCategory
         android:id="@+id/device_category_lenovo"
         android:title="@string/device_category_lenovo_title" >
@@ -263,10 +276,24 @@
 	
     <Preference
 	    android:id="@+id/device_A7010a48"
-        android:icon="@drawable/phone_tint"
+            android:icon="@drawable/phone_tint"
 	    android:summary="@string/device_A7010a48_summary"
 	    android:selectable="false"
 	    android:title="@string/device_A7010a48" />  
+ 
+    <Preference
+	    android:id="@+id/device_p2a42"
+            android:icon="@drawable/phone_tint"
+	    android:summary="@string/device_p2a42_summary"
+	    android:selectable="false"
+	    android:title="@string/device_p2a42" />  
+    
+    <Preference
+            android:id="@+id/device_lenovo_P1a42"
+            android:icon="@drawable/phone_tint"
+            android:summary="@string/device_lenovo_P1a42_summary"
+            android:selectable="false"
+            android:title="@string/device_lenovo_P1a42" />
 
   </PreferenceCategory> 
         
@@ -274,6 +301,18 @@
         android:id="@+id/device_category_samsung"
         android:title="@string/device_category_samsung_title" >
 
+     <Preference
+        android:id="@+id/device_herolte"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_herolte_summary"
+        android:selectable="false" 
+        android:title="@string/device_herolte" />
+     <Preference
+        android:id="@+id/device_j5ltexx"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_j5ltexx_summary"
+        android:selectable="false" 
+        android:title="@string/device_j5ltexx" />	 
      <Preference
         android:id="@+id/device_maguro"
         android:icon="@drawable/phone_tint"
@@ -750,6 +789,12 @@
        android:summary="@string/device_gemini_summary"
        android:selectable="false" 
        android:title="@string/device_gemini" />  
+	<Preference
+       android:id="@+id/device_natrium"
+       android:icon="@drawable/phone_tint"
+       android:summary="@string/device_natrium_summary"
+       android:selectable="false" 
+       android:title="@string/device_natrium" />  
    <Preference
        android:id="@+id/device_dior"
        android:icon="@drawable/phone_tint"
@@ -774,6 +819,12 @@
        android:summary="@string/device_kenzo_summary"
        android:selectable="false"
        android:title="@string/device_kenzo" />
+   <Preference
+       android:id="@+id/device_mido"
+       android:icon="@drawable/phone_tint"
+       android:summary="@string/device_mido_summary"
+       android:selectable="false"
+       android:title="@string/device_mido" />
    <Preference
        android:id="@+id/device_libra"
        android:icon="@drawable/phone_tint"
@@ -833,6 +884,12 @@
         android:summary="@string/device_s2_summary"
         android:selectable="false"
         android:title="@string/device_s2" />
+    <Preference
+        android:id="@+id/device_X3"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_X3_summary"
+        android:selectable="false"
+        android:title="@string/device_X3" />
   </PreferenceCategory>
 	
   <PreferenceCategory
@@ -996,4 +1053,29 @@
         android:selectable="false"
         android:title="@string/device_ham" />
 	</PreferenceCategory>
+ 
+<PreferenceCategory
+       android:id="@+id/device_category_nubia"
+       android:title="@string/device_category_nubia_title" >
+       
+     <Preference
+        android:id="@+id/device_nubia_nx531j"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_nubia_nx531j_summary"
+        android:selectable="false"
+        android:title="@string/device_nubia_nx531j" />
+     </PreferenceCategory>
+     
+<PreferenceCategory
+       android:id="@+id/device_category_vega"
+       android:title="@string/device_category_vega_title" >
+       
+      <Preference
+        android:id="@+id/device_vega_A910"
+        android:icon="@drawable/phone_tint" 
+        android:summary="@string/device_vega_A910_summary"
+        android:selectable="false"
+        android:title="@string/device_vega_A910" />
+     </PreferenceCategory>
+     
 </PreferenceScreen> 

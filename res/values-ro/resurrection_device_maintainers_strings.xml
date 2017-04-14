@@ -38,8 +38,9 @@
   <string name="device_category_bq_title">BQ</string>
   <string name="device_category_leeco_title">LeEco</string>
   <string name="device_category_zuk_title">ZUK</string>
+  <string name="device_A7010a48">Lenovo Vibe K4 Note</string>
+  <string name="device_A7010a48_summary">A7010a48\nMaintainer - Mohan Cm (mohancm100)</string>
   <string name="device_A6020">Vibe K5</string>
-  <string name="device_A6020_summary">A6020\nMaintainer - Henrique Silva (jhenrique09)</string>
   <string name="device_a6000">Lenovo A6000</string>
   <string name="device_a6000_summary">a6000\nResponsabil - mihaela Jain (dev_harsh1998)</string>
   <string name="device_ms013g">Grand 2 SM-G7102</string>
@@ -49,7 +50,6 @@
   <string name="device_moto_x14">Moto X 2014</string>
   <string name="device_moto_x14_summary">Victara \nMaintainer - Megatron007</string>
   <string name="device_moto_x_clark">Moto X 2015</string>
-  <string name="device_moto_x_clark_summary">Clark \nMaintainer- </string>
   <string name="device_lux_x">Moto X Play</string>
   <string name="device_lux_x_summary">Lux \nMaintainer - GtrCraft</string>
   <string name="device_peregrine">Moto G LTE</string>
@@ -71,7 +71,6 @@
   <string name="device_r7plus">OPPO</string>
   <string name="device_r7plus_summary">R7plus \nMaintainer - Pixelfreak2005</string>
   <string name="device_oneplus2">OnePlus 2</string>
-  <string name="device_oneplus2_summary">OnePlus 2 \nMaintainer - Ashok Soni (nicesoni_ash)</string>
   <string name="device_oneplus3">OnePlus 3</string>
   <string name="device_oneplus3_summary">OnePlus 3 \nMaintainer sud.vastav</string>
   <string name="device_oneplus3t">OnePlus Three T</string>
@@ -79,7 +78,6 @@
   <string name="device_klte">Galaxy S5</string>
   <string name="device_klte_summary">Toate variantele klte \nMaintainer - ScrawnyB</string>
   <string name="device_n9">Nexus 9</string>
-  <string name="device_n9_summary">Flounder \nResponsabil -</string>
   <string name="device_og">LG Optimus G</string>
   <string name="device_og_summary">Int \nResponsabil - </string>
   <string name="device_o4x">Optimus 4X HD</string>
@@ -115,7 +113,7 @@
   <string name="device_m9">HTC One M9</string>
   <string name="device_m9_summary">M9 \nResponsabil - </string>
   <string name="device_htc_10">HTC 10</string>
-  <string name="device_htc_10_summary">10 \nResposabil -</string>
+  <string name="device_htc_10_summary">10 \nMaintainer - tabp0le</string>
   <string name="device_google_marlin">GOOGLE</string>
   <string name="device_google_marlin_summary">PIXEL XL \nResponsabil - BDogg718</string>
   <string name="device_i9300">Galaxy S III</string>
@@ -193,11 +191,9 @@
   <string name="device_deb">Nexus 7 LTE 2013</string>
   <string name="device_deb_summary">Deb \nResponsabil - Aclegg2011</string>
   <string name="device_falcon">Moto G</string>
-  <string name="device_falcon_summary">Florin \nResponsabil - Henrique Silva (jhenrique09)</string>
   <string name="device_titan">Moto G 2014</string>
   <string name="device_titan_summary">Titan \nResponsabil - mrunalkaran</string>
   <string name="device_osprey">Moto G 2015</string>
-  <string name="device_osprey_summary">Osprey\nResponsabil - Henrique Silva (jhenrique09)</string>
   <string name="device_athene">Moto G4 Plus</string>
   <string name="device_athene_summary">athene \nResponsabil - Silesh.Nair</string>
   <string name="device_harpia">Moto G4 Play</string>
@@ -280,6 +276,8 @@
   <string name="device_dior_summary">dior\nMaintainer - Ashish Kotnala</string>
   <string name="device_kenzo">Xiaomi Redmi Note 3</string>
   <string name="device_kenzo_summary">Kenzo\nMaintainer - Akhil, Abhishek</string>
+  <string name="device_mido">Xiaomi Redmi Note 4G</string>
+  <string name="device_mido_summary">mido\nMaintainer - Sarthak Narang</string>
   <string name="device_hydrogen">Xiaomi Mi Max</string>
   <string name="device_hydrogen_summary">Hydrogen\nResponsabil - sawdoctor</string>
   <string name="device_sprout4">Android One - 4GB variants (1st Gen)</string>
@@ -314,13 +312,14 @@
   <string name="device_T00F_summary">T00F\nResponsabil - Buhtiarov de \"tank0412\" Roman</string>
   <string name="device_ferrari">Xiaomi MI 4i</string>
   <string name="device_ferrari_summary">ferrari\nResponsabil - haikalizz</string>
+  <string name="device_libra">Xiaomi MI 4c</string>
   <string name="device_libra_summary">libra\nResponsabil - AndropaX </string>
   <string name="device_redmi2">Xiaomi Redmi 2</string>
   <string name="device_redmi2_summary">wt88047\nResponsabil - nicknitewolf </string>
   <string name="device_redmi3">Xiaomi Redmi 3</string>
   <string name="device_redmi3_summary">ido\nMaintainer - WinKarbik</string>
   <string name="device_wfxs">WilleyFox Swift</string>
-  <string name="device_wfxs_summary">crackling\nMaintainer- </string>
+  <string name="device_wfxs_summary">crackling\nMaintainer - Semih ÇELİK (Wes)</string>
   <string name="device_wfxk">WilleyFox Storm</string>
   <string name="device_wfxk_summary">kipper\nMaintainer- </string>
   <string name="device_Z00D">Asus Zenfone 2 </string>
@@ -352,5 +351,4 @@
   <string name="device_flounder">HTC Nexus 9</string>
   <string name="device_flounder_summary">Flounder \nMaintainer - Jithu Mathew Joseph</string>
   <string name="device_ham">ZUK Z1</string>
-  <string name="device_ham_summary">Ham \nMaintainer - OrdenKrieger</string>
 </resources>

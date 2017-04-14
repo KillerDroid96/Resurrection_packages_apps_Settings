@@ -21,6 +21,8 @@
   <!-- General -->
   <string name="ok">Ok</string>
   <string name="reset">Thiết lập lại</string>
+  <string name="dlg_reset_rr">RR</string>
+  <string name="dlg_reset_android">Mặc định</string>
   <string name="default_string">Mặc định</string>
   <string name="add">Thêm</string>
   <string name="enabled">Đã bật</string>
@@ -66,10 +68,10 @@
   <string name="varun_summary">● Người đứng đầu phát triển \n● Người thiết kế UX \n● Người bảo trì</string>
   <string name="akhil_summary">● Người phát triển \n● Người bảo trì \n● Javascript master</string>
   <string name="brian_summary">● Người phát triển \n● Người bảo trì</string>
-  <string name="device_maintainers_title">Thiết bị và người bảo trì</string>
-  <string name="device_maintainers_title_summary">Danh sách các thiết bị và người bảo trì RR-OS chính thức</string>
+  <string name="device_maintainers_title">Thiết bị và người duy trì</string>
+  <string name="device_maintainers_title_summary">Danh sách các thiết bị và người duy trì RR-OS chính thức</string>
   <string name="maintainers_note_title">Chú ý</string>
-  <string name="maintainers_note_title_summary">Gửi một tin nhắn riêng đến \'Varun Date\' bằng Hangout bao gồm liên kết đến chủ đề ROM của bạn nếu bạn muốn thêm tên của bạn vào danh sách người bảo trì thiết bị.</string>
+  <string name="maintainers_note_title_summary">Gửi một tin nhắn riêng đến \'Varun Date\' bằng Hangout bao gồm liên kết đến chủ đề ROM của bạn nếu bạn muốn thêm tên của bạn vào danh sách người duy trì thiết bị.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The Drill</string>
   <string name="drill_summary">Logcat hoặc GTFO</string>
@@ -100,8 +102,8 @@
   <string name="fab_reset">Thiết lập lại</string>
   <string name="fab_about">Về RR-OS</string>
   <string name="fab_layout">Cập nhật giao diện</string>
-  <string name="fab_layout_update">Bật/tắt giao diện marshmallow</string>
-  <string name="fab_layout_toggle">Bật/tắt giao diện nougat</string>
+  <string name="fab_layout_update">Bật/tắt bố cục cổ điển</string>
+  <string name="fab_layout_toggle">Bật/tắt bố cục thẻ</string>
   <string name="rr_reset_message">Đặt lại tất cả cấu hình về giá trị mặc định?</string>
   <string name="rr_reset_settings">Đặt lại các thiếp lập</string>
   <string name="rr_reset_yes">Có</string>
@@ -628,6 +630,7 @@
   <string name="shortcuts_icon_presets">Biểu tượng hệ thống</string>
   <string name="shortcuts_icon_custom">Bộ sưu tập</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Chọn biểu tượng</string>
+  <string name="image_exceeds_max_allowed_size">Hình ảnh không vượt quá 512x512</string>
   <string name="lockscreen_shortcuts_category">Lối tắt</string>
   <string name="keyguard_torch_title">Đèn pin khi màn hình tắt</string>
   <string name="keyguard_torch_summary">Nhấn giữ phím nguồm khi màn hình tắt để bật đèn pin</string>
@@ -972,6 +975,8 @@
   <string name="volume_keys_control_ring_stream_summary_off">Phím âm lượng điều khiển âm lượng phương tiện</string>
   <string name="volume_answer_call_title">Trả lời cuộc gọi</string>
   <string name="volume_answer_call_summary">Trả lời cuộc gọi đến bằng cách nhấn nút âm lượng</string>
+  <string name="vol_up_disable_overlays_title">Vô hiệu hóa lớp phủ chủ đề với tăng âm lượng</string>
+  <string name="vol_up_disable_overlays_summary">Trong quá trình khởi động giữ nút tăng âm lượng để vô hiệu hoá tất cả lớp phủ chủ đề được áp dụng</string>
   <string name="camera_double_tap_power_gesture_title">Nhấn nút nguồn hai lần để mở máy ảnh</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Mở nhanh máy ảnh mà không cần mở khóa màn hình của bạn</string>
@@ -1011,7 +1016,7 @@
   <string name="status_bar_am_pm_small">Nhỏ</string>
   <string name="status_bar_am_pm_hidden">Ẩn</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Kiểu trạng thái pin</string>
+  <string name="status_bar_battery_style_title">Kiểu pin thanh trạng thái</string>
   <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc</string>
   <string name="status_bar_battery_style_icon_landscape">Biểu tượng ngang</string>
   <string name="status_bar_battery_style_circle">Vòng tròn</string>
@@ -1360,6 +1365,17 @@
   <string name="status_bar_logo_position_right">Phải</string>
   <string name="status_bar_logo_position_left">Trái</string>
   <string name="status_bar_logo_position_center">Giữa</string>
+  <string name="statusbar_weather_title">Thời tiết trên thanh trạng thái</string>
+  <string name="statusbar_weather_summary">Tùy chỉnh từ Cài đặt nhanh/Thời tiết.</string>
+  <string name="statusbar_weather_dialog_title">Kiểu thời tiết thanh trạng thái</string>
+  <string name="status_bar_weather_hidden">Ẩn thời tiết</string>
+  <string name="status_bar_temperature_image_show_scale">Hiển thị nhiệt độ bằng thang đo và hình ảnh</string>
+  <string name="status_bar_temperature_image_hide_scale">Hiển thị nhiệt độ bằng hình ảnh mà không có thang đo</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Hiển thị nhiệt độ có thang đo</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Hiển thị nhiệt độ không có thang đo</string>
+  <string name="status_bar_show_image">Hiện hình ảnh</string>
+  <string name="status_bar_weather_image_color_title">Màu hình ảnh</string>
+  <string name="sb_weather_ic_title">Gói biểu tượng</string>
   <string name="rr_config_style_title">Kiểu tùy chỉnh</string>
   <string name="rr_config_n">Nougat</string>
   <string name="rr_config_mm">Classic</string>
@@ -1375,6 +1391,8 @@
   <string name="qs_battery_easy_toggle_title">Ô bật/tắt nhanh chế độ pin</string>
   <string name="qs_battery_easy_toggle_summary">Thao tác một chạm sẽ bật hoặc tắt trình tiết kiệm pin thay vì vào các cài cài đặt</string>
   <!-- Location easy toggle -->
+  <string name="qs_location_easy_toggle_title">Bật/tắt chuyển đổi vị trí nhanh</string>
+  <string name="qs_location_easy_toggle_summary">Thao tác một chạm sẽ bật hoặc tắt trình tiết kiệm pin thay vì vào các cài cài đặt</string>
   <string name="qs_music_tile_track_optional_title">Ô tiêu đề bài hát</string>
   <string name="qs_music_tile_track_optional_summary">Hiển thị ô tiêu đề bài hát ô trên cài đặt nhanh</string>
   <string name="quick_settings_vibrate_title">Rung khi chạm</string>
@@ -1420,6 +1438,7 @@
   <string name="smartbar_interface">SmartBar</string>
   <string name="navbar_tint_switch">Màu sắc phím điều hướng</string>
   <string name="navbar_button_color">Phím thanh điều hướng</string>
+  <string name="navbar_button_custom_icon_switch_title">Thêm bộ lọc màu cho nút ứng dụng</string>
   <string name="icon_pack_picker_dialog_title">Gói biểu tượng</string>
   <string name="invalid_icon_from_uri">Không thể tải hình ảnh từ nội dung của nhà cung cấp</string>
   <string name="picker_activities">Hành động</string>
@@ -1506,7 +1525,9 @@
   <string name="lavamp_solid_speed_title">Tốc độ đèn dung nham</string>
   <string name="pulse_solid_units_count">Số đường liền nét</string>
   <string name="pulse_solid_units_opacity">Độ đậm đường liền nét</string>
+  <string name="pulse_fading_blocks_opacity">Độ trong suốt khối mờ dần</string>
   <string name="pulse_solid_dimen_category">Cài đặt chế độ đường liền nét</string>
+  <string name="pulse_custom_buttons_opacity_title">Nút độ mờ vào Xung</string>
   <string name="fling_lavalamp_color_from">Màu bắt đầu Đèn dung nham</string>
   <string name="fling_lavalamp_color_to">Màu kết thúc Đèn dung nham</string>
   <!-- Pulse config -->
@@ -1538,11 +1559,12 @@
   <string name="smartbar_button_animation_pixel_home_ripple">Điểm ảnh (chỉ nút Home) và Gợn sóng</string>
   <string name="smartbar_factory_reset_title">Thiết lập lại về gốc</string>
   <string name="smartbar_factory_reset_confirm">Bạn có chắc chắn muốn thiết lập lại Smartbar về cài đặt gốc?</string>
-  <string name="smartbar_ime_action_title">Hành động phương thức nhập liệu</string>
-  <string name="smartbar_ime_action_summary">Cài đặt phím nào hiện khi bàn phím trên màn hình đang hiển thị</string>
+  <string name="smartbar_ime_action_title">Phương thức đầu vào và các hành động phương tiện</string>
+  <string name="smartbar_ime_action_summary">Cài đặt phím nào hiện khi bàn phím trên màn hình đang hiển thị hoặc âm nhạc đang phát</string>
   <string name="smartbar_ime_action_none">Không gì cả</string>
   <string name="smartbar_ime_action_arrows">Mũi tên nhập liệu</string>
   <string name="smartbar_ime_action_switcher">Chuyển đổi bàn phím</string>
+  <string name="smartbar_ime_action_dynamic">Mũi tên đầu vào/phương tiện</string>
   <string name="smartbar_backup_current_config_title">Lưu cấu hình</string>
   <string name="smartbar_restore_config_title">Khôi phục lại cấu hình</string>
   <string name="smartbar_config_name_edit_dialog_title">Tên cấu hình Smartbar</string>
@@ -1790,6 +1812,7 @@
   <string name="custom_summary_randomize_title">Tóm tắt ngẫu nhiên</string>
   <string name="custom_summary_randomize_explain">Bản tóm lược viết sẵn sẽ được chọn ngẫu nhiên và sẽ thay đổi mỗi lần bạn mở Cài đặt.\nViệc này sẽ ghi đè bất kỳ thiết lập tóm tắt tùy chỉnh nào.</string>
   <string name="sum1">Bạn đã thử tất cả các tinh chỉnh chưa?</string>
+  <string name="sum2">Tin nóng: Donald Trump thay đổi kiểu tóc!</string>
   <string name="sum3">Bạn đã chạm 100 nghìn lần.</string>
   <string name="sum4">Nhiều lựa chọn!</string>
   <string name="sum5">Chạm vào đây ngay!</string>
@@ -1805,7 +1828,11 @@
   <string name="sum15">Chỉ dành cho người dùng chuyên nghiệp.</string>
   <string name="sum16">Bạn đang chán? OK bấm vào tôi ngay!</string>
   <string name="sum17">Tốt lắm! Bạn đã nhận được một tính năng</string>
+  <string name="sum18">Ngừng spam trên cộng đồng G+</string>
+  <string name="sum19">Tuân theo quy tắc đăng bài của G+</string>
   <string name="sum20">Nghiệp dư không thể nhập</string>
+  <string name="sum21">#Gotresurrected</string>
+  <string name="sum22">Tin nóng: Apple sẽ loại bỏ đèn flash trong các phiên bản iPhone tiếp theo.</string>
   <string name="sum23">Bây gIờ bạn vui chưa?</string>
   <string name="sum24">Đủ rồi, dừng chạm vào tôi ngay!</string>
   <string name="sum25">#Swagger</string>
@@ -1856,7 +1883,7 @@
   <string name="lock_screen_weather_city_color">Thời tiết trong thành phố </string>
   <string name="lock_screen_weather_wind_color">Gió thời tiết</string>
   <string name="yes">Có</string>
-  <string name="status_bar_battery_style_tile_title">Tùy chỉnh kiểu ô pin</string>
+  <string name="battery_tile_style_title">Kiểu ô pin</string>
   <string name="status_bar_battery_style_tile_summary">Cho phép đặt cùng một kiểu biểu tượng được chọn cho thanh trạng thái pin</string>
   <!-- Scrolling Animation Controls -->
   <string name="scrolling_title">Điều chỉnh cuộn</string>
@@ -2002,6 +2029,28 @@
   <!-- DUI Double Tap to Sleep -->
   <string name="smartbar_doubletap_sleep_title">Chạm hai lần để tắt màn hình</string>
   <string name="smartbar_doubletap_sleep_summary">Chạm hai lần vào khu vực trống trên thanh điều hướng để tắt màn hình</string>
+  <!-- Pixel Animation Duration -->
+  <string name="pixel_anim_title">Thời gian hoạt ảnh điểm ảnh thanh điều hướng </string>
+  <string name="pixel_anim_summary">Tùy chỉnh các thành phần khác nhau của hoạt ảnh điểm ảnh trên thanh điều hướng</string>
+  <string name="pixel_anim_warning">Tùy chỉnh các thành phần khác nhau của hoạt ảnh điểm ảnh hoạt hình trên thanh điều hướng. CẢNH BÁO! Thay đổi giá trị mặc định có thể gây ra hiệu suất giảm trong hoạt ảnh. Tiến hành rủi ro của riêng bạn</string>
+  <string name="pixel_anim_x_title">Thời gian ngang</string>
+  <string name="pixel_anim_y_title">Thời gian dọc</string>
+  <string name="collapse_anim_duration_ry_title">Thời gian thu gọn</string>
+  <string name="collapse_anim_duration_bg_title">Thu gọn hình nền</string>
+  <string name="retract_anim_duration_title">Thời gian rút lại</string>
+  <string name="diamond_anim_duration_title">Thời gian kim cương</string>
+  <string name="dots_anim_duration_title">Thiết lập các chấm</string>
+  <string name="home_resize_anim_duration_title">Thời gian thay đổi nút</string>
+  <string name="pixel_anim_color_title">Màu dấu chấm</string>
+  <string name="dot_top_color_title">Dấu chấm phía trên</string>
+  <string name="dot_bottom_color_title">Dấu chấm phía dưới</string>
+  <string name="dot_left_color_title">Dấu chấm bên trái</string>
+  <string name="dot_right_color_title">Dấu chấm bên phải</string>
+  <string name="dot_obey_themes">Mặc định (Màu chủ đề)</string>
+  <string name="dot_custom_color">Tuỳ chỉnh</string>
+  <string name="dot_random_color">Ngẫu nhiên</string>
+  <string name="dot_random_color_more">Rất ngẫu nhiên</string>
+  <string name="dot_color_switch_title">Kiểu</string>
   <!--One handed mode -->
   <string name="one_handed_mode_title">Chế độ một tay</string>
   <string name="one_handed_mode_summary">Cho phép vuốt trên thanh điều hướng để kích hoạt chế độ một tay</string>
@@ -2056,6 +2105,13 @@
   <string name="recent_panel_bg_color_title">Màu nền bảng điều khiển</string>
   <string name="recent_card_bg_color_title">Màu nền thẻ</string>
   <string name="recent_card_text_color_title">Màu chữ thẻ</string>
+  <string name="slim_recents_mem_display_long_click_clear_title">Nhấn giữ thanh hiển thị bộ nhớ</string>
+  <string name="slim_recents_mem_display_long_click_clear_summary">Xóa các mục gần đây bằng cách nhấn giữ thanh hiển thị bộ nhớ</string>
+  <string name="slim_icon_pack_title">Gói Biểu Tượng</string>
+  <string name="slim_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng điều khiển</string>
+  <string name="no_iconpacks_summary">Không có gói biểu tượng nào được cài đặt</string>
+  <string name="dialog_pick_iconpack_title">Chọn gói biểu tượng</string>
+  <string name="default_iconpack_title">Biểu tượng mặc định</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Hiển thị trên cạnh trái</string>
   <string name="recent_panel_lefty_mode_summary">Hiện bảng điều khiển ứng dụng gần đây trên cạnh trái</string>
@@ -2089,6 +2145,8 @@
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Ẩn thanh trạng thái</string>
   <string name="lockscreen_hide_status_bar_summary">Bật/tắt thanh trạng thái trên màn hình khóa</string>
+  <string name="confirm_shutdown_switch_title">Hộp thoại xác nhận tắt nguồn</string>
+  <string name="confirm_shutdown_switch_desc">Khi chạm vào nút tắt nguồn trong trình đơn nguồn, thêm một hộp thoại để xác nhận tắt nguồn</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Nút tắt ứng dụng</string>
   <string name="notification_guts_kill_app_button_summary">Hiển thị một nút tắt ứng dụng trong trình đơn của nhấn giữ thông báo</string>
@@ -2096,4 +2154,50 @@
   <string name="weather_config_title">Cài đặt dịch vụ</string>
   <string name="weather_icon_pack_title">Gói biểu tượng tình trạng</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Cho phép cài đặt ứng dụng từ các nguồn không xác định</string>
+  <string name="force_authorize_substratum_packages_summary">Buộc ủy quyền cho mỗi ứng dụng chủ đề</string>
+  <string name="magisk_title">Trình quản lý Magisk</string>
+  <string name="magisk_summary">Quản lí Root</string>
+  <string name="notif_text_color">Màu văn bản</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_title">Không có thông báo</string>
+  <string name="status_bar_expanded_empty_shade_view_settings_summary">Tùy chỉnh giao diện không có thông báo</string>
+  <!-- Statusbar expanded empty shade view settings -->
+  <string name="empty_shade_view_show_carrier_name_title">Hiển thị tên nhà cung cấp</string>
+  <string name="empty_shade_view_show_carrier_name_summary">Cho phép hiển thị tên nhà cung cấp</string>
+  <string name="empty_shade_view_show_wifi_name_title">Hiển thị tên mạng wifi</string>
+  <string name="empty_shade_view_show_wifi_name_summary">Cho phép hiển thị tên mạng wifi</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Hiển thị chỉ báo chuyển vùng</string>
+  <string name="roaming_indicator_icon_summary">Hiển thị chỉ số chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyểm vùng</string>
+  <!-- Roaming indicator icon -->
+  <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@trống</string>
+  <string name="screen_state_toggles_title">Đình chỉ hoạt động</string>
+  <string name="screen_state_toggles_enable_title">Bật</string>
+  <string name="screen_state_toggles_enable_summary">Các hành động sẽ được thực hiện lúc màn hình tắt. Lúc màn hình bật trạng thái trước đó sẽ được khôi phục.</string>
+  <string name="screen_state_toggles_mobile_title">Mạng di động</string>
+  <string name="screen_state_toggles_location_title">Vị trí</string>
+  <string name="screen_state_toggles_twog">Chuyển sang 2G</string>
+  <string name="screen_state_toggles_twog_summary">Chế độ mạng sẽ được chuyển sang 2G lúc màn hình tắt</string>
+  <string name="screen_state_toggles_gps">Vô hiệu GPS</string>
+  <string name="screen_state_toggles_gps_summary">Dịch vụ vị trí dựa trên GPS sẽ bị vô hiệu hóa lúc màn hình tắt</string>
+  <string name="screen_state_toggles_mobile_data">Tắt dữ liệu di động</string>
+  <string name="screen_state_toggles_mobile_data_summary">Dữ liệu di động sẽ bị vô hiệu hóa lúc màn hình tắt</string>
+  <string name="screen_state_off_delay_title">Độ trễ hành động Tắt màn hình</string>
+  <string name="screen_state_off_delay_summary">Số giây chờ trước khi thực hiện hành động sau khi màn hình tắt</string>
+  <string name="screen_state_on_delay_title">Độ trễ hành động Bật màn hình</string>
+  <string name="screen_state_on_delay_summary">Số giây chờ trước khi thực hiện hành động sau khi màn hình bật</string>
+  <!-- In-call DND -->
+  <string name="dnd_when_call_title">Không làm phiền khi đang gọi</string>
+  <string name="dnd_when_call_summary">Tự động kích hoạt DND trong suốt cuộc gọi</string>
+  <string name="no_sim_cluster_switch_title">Không có mạng sim ẩn</string>
+  <string name="no_sim_cluster_switch_summary">Ẩn thanh mạng nếu đăng ký sim không hoạt động và bị vô hiệu. Nếu sim không bị vô hiệu, chuyển đổi này sẽ không làm việc</string>
+  <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Độ sáng</string>
+  <string name="night_brightness_value_title">Độ sáng Night Light</string>
+  <string name="night_brightness_text">Khi Night Light được kích hoạt, tự động thiết lập độ sáng mong muốn.</string>
+  <string name="night_bright_disabled">Đã tắt</string>
+  <string name="night_bright_min">Độ sáng tối thiểu</string>
+  <string name="night_bright_low">Độ sáng thấp</string>
+  <string name="night_bright_medium">Độ sáng trung bình</string>
 </resources>

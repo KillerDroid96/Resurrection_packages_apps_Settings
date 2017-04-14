@@ -224,6 +224,7 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- DUI Double Tap to Sleep -->
+  <!-- Pixel Animation Duration -->
   <!--One handed mode -->
   <!-- SystemUI restart prompt -->
   <!-- Dashboard options -->
@@ -238,4 +239,10 @@
   <!-- Hide Statusbar on Lockscreen -->
   <!-- Notification guts kill app button -->
   <!-- Force authorize substratum packages -->
+  <!-- Statusbar expanded empty shade view settings -->
+  <!-- Roaming indicator icon -->
+  <!-- Roaming indicator icon -->
+  <!-- Screen state service -->
+  <!-- In-call DND -->
+  <!-- Advanced night mode brightness -->
 </resources>
