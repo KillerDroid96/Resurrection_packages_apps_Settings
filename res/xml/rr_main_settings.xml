@@ -21,6 +21,12 @@
     android:title="@string/rr_title">
 
      <PreferenceScreen
+                android:id="@+id/tweaks"
+                android:title="@string/rr_tweaks_title"
+                android:fragment="com.android.settings.rr.Tweaks"
+                android:icon="@drawable/rr_source_icon"
+                />
+     <PreferenceScreen
                 android:id="@+id/status_bar_settings"
                 android:title="@string/rr_statusbar_title"
                 android:fragment="com.android.settings.rr.StatusBarSettings"
