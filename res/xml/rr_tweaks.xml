@@ -69,5 +69,15 @@
                     android:targetPackage="org.adaway"
                     android:targetClass="org.adaway.ui.BaseActivity" />
      </Preference>
+
+     <Preference
+               android:key="spectrum_settings"
+               android:title="@string/rr_spectrum_title"
+               android:icon="@drawable/rr_changelog_icon">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.frap129.spectrum"
+                    android:targetClass="org.frap129.spectrum.SplashActivity" />
+     </Preference>
 	
 </PreferenceScreen>
