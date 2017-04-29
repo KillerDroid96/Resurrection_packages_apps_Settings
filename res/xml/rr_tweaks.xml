@@ -37,7 +37,7 @@
                  <intent
                     android:action="android.intent.action.MAIN"
                     android:targetPackage="projekt.substratum"
-                    android:targetClass="projekt.substratum.AppIntroActivity" />
+                    android:targetClass="projekt.substratum.LaunchActivity" />
      </Preference>
      
      <Preference
