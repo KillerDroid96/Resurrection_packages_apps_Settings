@@ -1088,20 +1088,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             finish();
             return null;
         }
-  		 if (KA_FRAGMENT.equals(fragmentName)) {
-            Intent kaIntent = new Intent();
-            kaIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.activities.MainActivity");
-            startActivity(kaIntent);
-            finish();
-            return null;
-        } else if (THEMES_FRAGMENT.equals(fragmentName)) {
-            Intent themesIntent = new Intent();
-            themesIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
-            startActivity(themesIntent);
-            finish();
-            return null;
-        }
-
+  		 
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
