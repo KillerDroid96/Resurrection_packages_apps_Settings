@@ -19,16 +19,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/rr_tweaks_title">
-     
-     <Preference
-                android:key="magisk_settings"
-                android:title="@string/magisk_title"
-                android:icon="@drawable/ic_settings_magisk">
-                <intent
-                    android:action="android.intent.action.MAIN" 
-                    android:targetPackage="com.topjohnwu.magisk" 
-                    android:targetClass="com.topjohnwu.magisk.SplashActivity"/>
-     </Preference>
 	
      <Preference
                 android:key="themes_settings"
