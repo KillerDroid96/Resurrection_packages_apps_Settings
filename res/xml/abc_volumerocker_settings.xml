@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The ABC rom
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <ListPreference
+        android:key="wired_ringtone_focus_mode"
+        android:title="@string/wired_ringtone_focus_mode_title"
+        android:entries="@array/wired_ringtone_focus_mode_entries"
+        android:entryValues="@array/wired_ringtone_focus_mode_values" />
+
+    <ListPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values" />
+
+    <SwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary" />
+
+    <SwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false"
+        android:disableDependentsState="true" />
+
+    <SwitchPreference
+        android:key="volume_rocker_music_controls"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="true"
+        android:dependency="volume_rocker_wake" />
+
+    <PreferenceScreen
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:fragment="com.abc.settings.fragments.VolumeSteps" />
+
+    <com.abc.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_down_silent"
+        android:title="@string/volbtn_down_zen_title"
+        android:summary="@string/volbtn_down_zen_summary"
+        android:defaultValue="true"/>
+
+    <com.abc.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_up_silent"
+        android:title="@string/volbtn_up_zen_title"
+        android:summary="@string/volbtn_up_zen_summary"
+        android:defaultValue="true" />
+
+    <com.abc.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_show_full_zen"
+        android:title="@string/vol_zen_title"
+        android:summary="@string/vol_zen_summary"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
