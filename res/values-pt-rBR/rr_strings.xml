@@ -162,7 +162,7 @@
   <string name="recents_clear_all_summary">Substituir o botão nativo de limpar tudo com o botão original flutuante e customizar sua posição</string>
   <string name="omniswitch_summary">Usar o Omni Switch ao invés da visualização padrão de recentes</string>
   <string name="rr_qs_animation_summary">Personalizar as animações quando tocar as configurações rápidas</string>
-  <string name="rr_qs_pulldown_summary">Configurações do painel suspenso do ajuste rápido</string>
+  <string name="rr_qs_pulldown_summary">Ajustar as configurações rápidas do painel suspenso</string>
   <string name="qs_tile_layout_summary">Customizar o layout das configurações rápidas</string>
   <string name="qs_advanced_summary">Personalização diversas das configurações rápidas</string>
   <string name="rr_ls_gesture_summary">Escolha vários gestos adquiridos na Tela de Bloqueio</string>
@@ -1468,11 +1468,13 @@
   <string name="navigation_bar_left_title">Modo canhoto</string>
   <string name="navigation_bar_left_summary">Colocar a barra de navegação no lado esquerdo da tela em modo paisagem</string>
   <string name="info_pref_note_title">Nota</string>
-  <string name="smartbar_interface">SmartBar</string>
+  <string name="smartbar_interface">Barra Inteligente</string>
   <string name="navbar_tint_switch">Cor dos Botões de Navegação</string>
   <string name="navbar_button_color">Botões da Barra de Navegação</string>
   <string name="navbar_button_custom_icon_switch_title">Adicionar filtro de cor para botões de aplicativos</string>
   <string name="icon_pack_picker_dialog_title">Pacotes de ícones</string>
+  <string name="navigation_bar_left_title">Modo canhoto</string>
+  <string name="navigation_bar_left_summary">Exibir a barra de navegação no lado esquerdo em modo paisagem</string>
   <string name="invalid_icon_from_uri">Não é possível carregar a imagem do provedor de conteúdo</string>
   <string name="picker_activities">Atividades</string>
   <string name="select_custom_app_title">Escolher aplicativo personalizado</string>
@@ -1575,8 +1577,8 @@
   <string name="land_hor_title">Altura da paisagem</string>
   <string name="positive_done">Concluído</string>
   <!-- SmartBar -->
-  <string name="smartbar_category">SmartBar</string>
-  <string name="smartbar_settings_title">Configurações da SmartBar</string>
+  <string name="smartbar_category">Barra Inteligente</string>
+  <string name="smartbar_settings_title">Configurações da Barra Inteligente</string>
   <string name="smartbar_editor_title">Editor dos botões de alternância</string>
   <string name="smartbar_editor_summary">Pressão média e largar para trocar a posição. Pressão longa para mostrar o menu editar. A posição do botão pode ser mudada enquanto é mostrado o menu.</string>
   <string name="smartbar_context_menu_position_title">Posição do contexto traçado dos botões</string>
@@ -1591,7 +1593,7 @@
   <string name="smartbar_button_animation_pixel_home">Pixel (Apenas o botão Início)</string>
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (apenas botão Início) e Ondulação</string>
   <string name="smartbar_factory_reset_title">Redefinir para padrão</string>
-  <string name="smartbar_factory_reset_confirm">Tem certeza de que deseja redefinir a Smartbar para configurações padrão?</string>
+  <string name="smartbar_factory_reset_confirm">Tem certeza de que deseja redefinir a Barra Inteligente para as configurações padrão?</string>
   <string name="smartbar_ime_action_title">Método de introdução e ações multimédia</string>
   <string name="smartbar_ime_action_summary">Definir quais botões mostrar quando o teclado está na tela ou uma música está tocando</string>
   <string name="smartbar_ime_action_none">Vazio</string>
@@ -1600,12 +1602,12 @@
   <string name="smartbar_ime_action_dynamic">Setas de entrada/multimédia</string>
   <string name="smartbar_backup_current_config_title">Salvar Perfil</string>
   <string name="smartbar_restore_config_title">Restaurar o perfil</string>
-  <string name="smartbar_config_name_edit_dialog_title">Nome do perfil Smartbar</string>
+  <string name="smartbar_config_name_edit_dialog_title">Nome do perfil da Barra Inteligente</string>
   <string name="smartbar_config_name_edit_dialog_message">Digite um nome ou deixe em branco</string>
-  <string name="smartbar_config_dialog_title">Perfis da SmartBar</string>
-  <string name="smartbar_config_backup_success_toast">Perfil da SmartBar salvo com sucesso</string>
-  <string name="smartbar_config_restore_success_toast">Perfil da SmartBar restaurado com sucesso</string>
-  <string name="smartbar_config_backup_error_toast">Erro ao salvar o perfil da Smartbar</string>
+  <string name="smartbar_config_dialog_title">Perfis da Barra Inteligente</string>
+  <string name="smartbar_config_backup_success_toast">Perfil da Barra Inteligente salvo com sucesso</string>
+  <string name="smartbar_config_restore_success_toast">Perfil da Barra Inteligente restaurado com sucesso</string>
+  <string name="smartbar_config_backup_error_toast">Erro ao salvar o perfil da Barra Inteligente</string>
   <string name="smartbar_config_restore_error_toast">Erro ao restaurar o perfil da Barra Inteligente</string>
   <string name="navbar_buttons_alpha_title">Transparência dos botões</string>
   <string name="rr_navbar_settings">Barra de Navegação</string>
@@ -1741,7 +1743,7 @@
   <string name="pa_pie_lastapp_title">Último aplicativo</string>
   <string name="pa_pie_lastapp_summary">Habilitar o botão de último app</string>
   <string name="pa_pie_killtask_title">Matar Tarefa</string>
-  <string name="pa_pie_killtask_summary">Habilitar o botão matador de tarefas</string>
+  <string name="pa_pie_killtask_summary">Ativar o botão de encerrar tarefas</string>
   <string name="pa_pie_notifications_title">Notificações</string>
   <string name="pa_pie_notifications_summary">Habilitar botão de notificações</string>
   <string name="pa_pie_settings_panel_title">Painel de Configurações Rápidas</string>
@@ -2043,7 +2045,7 @@ Densidade atual: <xliff:g name="count" example="520">%d</xliff:g> dpi</string>
   <!-- Task Manager -->
   <string name="enable_task_manager_title">Gerenciador de Tarefas</string>
   <string name="enable_task_manager_summary">Ativar/desativar a ação para o botão gerenciador de tarefas na área expandida da barra de status</string>
-  <string name="task_manager_kill_button">Botão de fechar tarefa</string>
+  <string name="task_manager_kill_button">Botão de encerrar tarefa</string>
   <string name="task_manager_left_button_title">Botão de notificações</string>
   <string name="task_manager_left_button_summary">Ativar ou desativar o botão para limpar as notificações no Gerenciador de tarefas</string>
   <string name="task_manager_right_button_title">Botão de serviços</string>
@@ -2155,6 +2157,7 @@ Densidade atual: <xliff:g name="count" example="520">%d</xliff:g> dpi</string>
   <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
   <string name="dialog_pick_iconpack_title">Escolher o pacote de ícones</string>
   <string name="default_iconpack_title">Ícones padrão</string>
+  <string name="slim_recents_corner_radius_title">Usar cartões com cantos arredondados</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Mostrar na borda esquerda</string>
   <string name="recent_panel_lefty_mode_summary">Mostrar painel de aplicativos recentes na borda esquerda</string>
@@ -2240,6 +2243,8 @@ Densidade atual: <xliff:g name="count" example="520">%d</xliff:g> dpi</string>
   <string name="dnd_when_call_summary">Ativar automaticamente o modo \"Não incomodar\" durante as chamadas</string>
   <string name="no_sim_cluster_switch_title">Esconder o indicador de \"sem cartão SIM\"</string>
   <string name="no_sim_cluster_switch_summary">Esconder o indicador da rede se o cartão SIM estiver inativo ou desativado. Se o cartão SIM não estiver desativado, esta função não irá funcionar</string>
+  <string name="disable_no_sim_title">Desativar o ícone de \"sem cartão SIM\"</string>
+  <string name="disable_no_sim_summary">Desativar o ícone do cartão SIM quando cartão SIM inexistente</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brilho</string>
   <string name="night_brightness_value_title">Brilho da Luz Noturna</string>
@@ -2258,4 +2263,23 @@ Densidade atual: <xliff:g name="count" example="520">%d</xliff:g> dpi</string>
   <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
   <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
   <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+  <string name="headset_connect_player_disabled">Desativado</string>
+  <string name="headset_connect_player_wired">Quando o fone de ouvido com fio estiver conectado</string>
+  <string name="headset_connect_player_bt_no_carkit">Quando o fone de ouvido BT (sem carkit) está plugado</string>
+  <string name="headset_connect_player_bt">Quando o fone de ouvido BT está plugado</string>
+  <string name="headset_connect_player_both_no_carkit">Quando ligado ou fone de ouvido BT (sem carkit) está conectado</string>
+  <string name="headset_connect_player_both">Quando ligado ou fone de ouvido BT está plugado</string>
+  <!-- No navigation notification -->
+  <string name="no_navigation_notif_title">Sem lembretes de método de navegação</string>
+  <string name="no_navigation_notif_summary">Mostrar uma notificação quando não há métodos de navegação ativados</string>
+  <!-- Settings header -->
+  <string name="show_settings_header_title">Cabeçalho personalizado do painel</string>
+  <string name="show_settings_header_summary">Mostrar cabeçalho personalizado no painel das definições</string>
+  <!-- FP gesture -->
+  <string name="quick_pulldown_fp_title">Deslizar rápido para baixo com impressão digital</string>
+  <string name="quick_pulldown_fp_summary">Expandir o painel de configurações rápidas com apenas um toque no sensor de impressões digitais</string>
+  <string name="recents_lock_icon_title">Ícone de bloqueio</string>
+  <string name="recents_lock_icon_summary">Mostrar no cabeçalho o ícone das últimas tarefas encerradas</string>
+  <string name="nav_button_sounds_title">Sons de toque</string>
+  <string name="nav_button_sounds_summary">Reproduzir som de clique ao tocar na Barra Inteligente. Apenas no modo de toque alto</string>
 </resources>

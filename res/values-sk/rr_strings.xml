@@ -1475,6 +1475,8 @@
   <string name="navbar_button_color">Tlačidlá v navigačnom paneli</string>
   <string name="navbar_button_custom_icon_switch_title">Pridať farebný filter tlačidlám aplikácií</string>
   <string name="icon_pack_picker_dialog_title">Balíčky ikon</string>
+  <string name="navigation_bar_left_title">Režim pre ľavákov</string>
+  <string name="navigation_bar_left_summary">Zobraziť navigačný panel na ľavej strane v režime na šírku</string>
   <string name="invalid_icon_from_uri">Nemožno načítať obrázok z obsahu poskytovateľa</string>
   <string name="picker_activities">Aktivity</string>
   <string name="select_custom_app_title">Vyberte vlastnú aplikáciu</string>
@@ -2157,6 +2159,7 @@
   <string name="no_iconpacks_summary">Nie je nainstalovaný žiadny balíček ikon</string>
   <string name="dialog_pick_iconpack_title">Vyberte sadu ikon</string>
   <string name="default_iconpack_title">Predvolené ikony</string>
+  <string name="slim_recents_corner_radius_title">Použiť okrúhle rohy pre karty</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Zobraziť v ľavom okraji</string>
   <string name="recent_panel_lefty_mode_summary">Zobraziť panel nedávnych aplikácií v ľavom okraji</string>
@@ -2222,7 +2225,7 @@
   <string name="data_wifi_activity_arrows_summary">Zobrazit šípky pri aktivite Dát/Wi-Fi</string>
   <!-- Screen state service -->
   <string name="screen_state_toggles_summary">\@null</string>
-  <string name="screen_state_toggles_title">Pozastavené akcie</string>
+  <string name="screen_state_toggles_title">Akcie po zhasnutí obrazovky</string>
   <string name="screen_state_toggles_enable_title">Zapnúť</string>
   <string name="screen_state_toggles_enable_summary">Akcie budú vykonané pri vypnutí obrazovky. Pri zapnutí a uvedení do predchádzajúceho stavu budú obnovené.</string>
   <string name="screen_state_toggles_mobile_title">Mobilné siete</string>
@@ -2242,6 +2245,8 @@
   <string name="dnd_when_call_summary">Automatická aktivácia nastavenia \"Nerušiť\" počas hlasových hovorov</string>
   <string name="no_sim_cluster_switch_title">Skryť hlásenie \"Žiadna sieť\"</string>
   <string name="no_sim_cluster_switch_summary">Skryť hlásenie \"Žiadna sieť\", v prípade, že je SIM-karta je neaktívna alebo vypnutá. Ak SIM-karta nie je vypnutá, nebude tento prepínač fungovať</string>
+  <string name="disable_no_sim_title">Zakázať ikonu \"Nie je SIM karta\"</string>
+  <string name="disable_no_sim_summary">Zakázať ikonu \"Nie je SIM karta\", ak SIM karta nie je vložená</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jas</string>
   <string name="night_brightness_value_title">Jas v nočnom režime</string>
@@ -2260,4 +2265,23 @@
   <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
   <string name="incall_vibrate_call_wait_title">Vibrovať pri čakaní</string>
   <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+  <string name="headset_connect_player_disabled">Vypnuté</string>
+  <string name="headset_connect_player_wired">Keď sú pripojené káblové slúchadlá</string>
+  <string name="headset_connect_player_bt_no_carkit">Keď sú pripojené BT slúchadlá (nie pripojenie v aute)</string>
+  <string name="headset_connect_player_bt">Keď sú pripojené BT slúchadlá</string>
+  <string name="headset_connect_player_both_no_carkit">Keď sú pripojené káblové alebo BT slúchadlá (nie pripojenie v aute)</string>
+  <string name="headset_connect_player_both">Keď sú pripojené káblové alebo BT slúchadlá</string>
+  <!-- No navigation notification -->
+  <string name="no_navigation_notif_title">Upozornenie - žiadne spôsoby navigácie</string>
+  <string name="no_navigation_notif_summary">Zobraziť upozornenie, keď nie sú zapnuté žiadne spôsoby navigácie</string>
+  <!-- Settings header -->
+  <string name="show_settings_header_title">Záhlavie vlastného zobrazenia</string>
+  <string name="show_settings_header_summary">Zobrazenie vlastného záhlavia v ponuke nastavení</string>
+  <!-- FP gesture -->
+  <string name="quick_pulldown_fp_title">Panel rýchlych nastavení pre snímač odtlačkov prstov</string>
+  <string name="quick_pulldown_fp_summary">Rozbalenie panela rýchlych nastavení iba jedným priložením prsta na snímač odtlačkov prstov</string>
+  <string name="recents_lock_icon_title">Ikona zámku</string>
+  <string name="recents_lock_icon_summary">Zobraziť ikonu zámku v záhlaví aplikácie v ponuke nedávnych aplikácií</string>
+  <string name="nav_button_sounds_title">Zvuky pri dotyku</string>
+  <string name="nav_button_sounds_summary">Prehranie zvuku pri kliknutí na inteligentný panel</string>
 </resources>

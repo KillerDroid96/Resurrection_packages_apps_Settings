@@ -881,8 +881,8 @@
   <string name="keyguard_statusbar_clock_title">Часы на экране блокировки</string>
   <string name="keyguard_statusbar_clock_summary">Включть отображение часов на экране блокировки с левой стороны</string>
   <!-- Fingerprint vibrate -->
-  <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальца</string>
-  <string name="fprint_sucess_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
+  <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальцев</string>
+  <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальцев</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
   <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
@@ -1473,6 +1473,8 @@
   <string name="navbar_button_color">Кнопки панели навигации</string>
   <string name="navbar_button_custom_icon_switch_title">Добавить цветовой фильтр к кнопкам приложений</string>
   <string name="icon_pack_picker_dialog_title">Наборы значков</string>
+  <string name="navigation_bar_left_title">Режим левши</string>
+  <string name="navigation_bar_left_summary">Показывать панель навигации с левой стороны при ландшафтной ориентации</string>
   <string name="invalid_icon_from_uri">Не удается загрузить изображения от контент-провайдера</string>
   <string name="picker_activities">Активити</string>
   <string name="select_custom_app_title">Выбрать пользовательское приложение</string>
@@ -1958,7 +1960,7 @@
   <string name="keyboard_rotation_toggle_title">Автоповорот клавиатуры</string>
   <string name="keyboard_rotation_toggle_summary">Принудительный поворот экрана, когда показывается клавиатура</string>
   <string name="keyboard_rotation_timeout_title">Тайм-аут автоповорота</string>
-  <string name="keyboard_rotation_timeout_summary">Отключить сенсор автоповорота, спустя <xliff:g id="rotate_timeout">%1$s</xliff:g> секунд, после скрытия клавиатуры</string>
+  <string name="keyboard_rotation_timeout_summary">Отключить датчик автоповорота, спустя <xliff:g id="rotate_timeout">%1$</xliff:g> секунд, после скрытия клавиатуры</string>
   <string name="keyboard_rotation_dialog">Эта функция принудительно включает автоповорот во время отображения клавиатуры и не имеет эффекта, когда автоповорот уже включен.</string>
   <string name="show_enter_key_title">Показывать кнопку ввода</string>
   <string name="show_enter_key_summary">Принудительно показывать кнопку ввода вместо кнопки смайликов</string>
@@ -2155,12 +2157,13 @@
   <string name="no_iconpacks_summary">Ни одного набора значков не установлено</string>
   <string name="dialog_pick_iconpack_title">Выберите набор значков</string>
   <string name="default_iconpack_title">Значки по умолчанию</string>
+  <string name="slim_recents_corner_radius_title">Использовать закругленные углы для карточек</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Показывать с левого края</string>
   <string name="recent_panel_lefty_mode_summary">Показывать панель приложений с левого края</string>
   <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Разблокировка по сканеру отпечатка пальца</string>
-  <string name="fp_unlock_keystore_summary">Разблокировка по сканеру отпечатка пальца после перезагрузки без ввода ПИН-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
+  <string name="fp_unlock_keystore_title">Разблокировка по сканеру отпечатка пальцев</string>
+  <string name="fp_unlock_keystore_summary">Разблокировка по сканеру отпечатка пальцев после перезагрузки без ввода ПИН-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
   <!-- Wired headset ringtone audio focus -->
   <string name="rr_sound_title">Наушники</string>
   <string name="rr_sound_summary">Настроить ваши проводные наушники</string>
@@ -2240,6 +2243,8 @@
   <string name="dnd_when_call_summary">Автоматическое включение режима \"Не беспокоить\" во время голосовых вызовов</string>
   <string name="no_sim_cluster_switch_title">Скрыть надпись \"Нет сети\"</string>
   <string name="no_sim_cluster_switch_summary">Скрыть панель сети, если подпись SIM-карты неактивна или отключена. Если SIM-карта не отключена, данный переключатель не будет работать</string>
+  <string name="disable_no_sim_title">Отключить значок \"Нет SIM-карты\"</string>
+  <string name="disable_no_sim_summary">Отключить значок \"Нет SIM-карты\", если SIM-карта отсутствует</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Яркость</string>
   <string name="night_brightness_value_title">Яркость в ночном режиме</string>
@@ -2258,4 +2263,23 @@
   <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
   <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
   <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
+  <string name="headset_connect_player_disabled">Выключено</string>
+  <string name="headset_connect_player_wired">Когда проводные наушники подключены</string>
+  <string name="headset_connect_player_bt_no_carkit">Когда BT наушники (не автомобиль) подключены</string>
+  <string name="headset_connect_player_bt">Когда BT наушники подключены</string>
+  <string name="headset_connect_player_both_no_carkit">Когда проводные или BT наушники (не автомобиль) подключены</string>
+  <string name="headset_connect_player_both">Когда проводные или BT наушники подключены</string>
+  <!-- No navigation notification -->
+  <string name="no_navigation_notif_title">Напоминание об отсутствии способа навигации</string>
+  <string name="no_navigation_notif_summary">Показывать уведомление, когда не включено ни одного способа навигации</string>
+  <!-- Settings header -->
+  <string name="show_settings_header_title">Пользовательский заголовок бокового меню настроек</string>
+  <string name="show_settings_header_summary">Показывать пользовательский заголовок в заголовке настроек</string>
+  <!-- FP gesture -->
+  <string name="quick_pulldown_fp_title">Быстрый доступ про помощи сканера отпечатка пальца</string>
+  <string name="quick_pulldown_fp_summary">Расширять панель быстрых настроек с помощью одного свайпа по сканеру отпечатка пальцев</string>
+  <string name="recents_lock_icon_title">Значок блокировки</string>
+  <string name="recents_lock_icon_summary">Показывать значок блокировки в заголовке приложения в меню недавних приложений</string>
+  <string name="nav_button_sounds_title">Звуки нажатия</string>
+  <string name="nav_button_sounds_summary">Воспроизвести звук при нажатии на панель SmartBar. Только в режиме со звуком</string>
 </resources>

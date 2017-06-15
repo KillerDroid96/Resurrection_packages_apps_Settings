@@ -209,7 +209,6 @@
   <string name="device_s2">LeEco Le 2</string>
   <string name="device_X3">LeEco Le 1s</string>
   <string name="device_x2">LeEco LeMax 2</string>
-  <string name="device_alpha">Samsung Galaxy Alpha</string>
   <string name="device_t0ltexx">Samsung Galaxy Note II LTE</string>
   <string name="device_u9500">Huawei Ascend D1</string>
   <string name="device_kiwi">Huawei Honor 5x</string>
@@ -227,7 +226,6 @@
   <string name="device_wfxs">WilleyFox Swift</string>
   <string name="device_wfxk">WilleyFox Storm</string>
   <string name="device_Z00D">Asus Zenfone 2 </string>
-  <string name="device_Z010D">Asus Zenfone Max </string>
   <string name="device_bullhead">LGE Nexus 5X</string>
   <string name="device_shieldtablet">Nvidia Shield Tablet/K1</string>
   <string name="device_z00t">Asus Zenfone 2 Laser/Selfie (1080p)</string>
